@@ -6,6 +6,75 @@
 
 
 /* ===================================
+   1
+=================================== */
+
+.case--study-banner-inner {
+    position: relative;
+    height: 900px;
+    border-radius: 30px;
+    overflow: hidden;
+}
+
+
+/* VIDEO */
+
+.case--study-banner-video {
+    position: absolute;
+    inset: 0;
+}
+
+.case--study-banner-video video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+
+/* DARK OVERLAY */
+
+.banner-overlay {
+    position: absolute;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.45);
+}
+
+
+/* CENTER CONTENT */
+
+.banner-center {
+    position: absolute;
+    top: 52%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    width: 100%;
+    padding: 0 20px;
+}
+
+.banner-center h1 {
+    font-size: clamp(36px, 4.6vw, 82px);
+    line-height: 1.05;
+    font-weight: 700;
+    color: #fff;
+    margin-bottom: 25px;
+}
+
+.highlight {
+    color: #F7A79A;
+}
+
+.banner-center p {
+    /* max-width: 850px; */
+    /* margin: 0 auto; */
+    font-size: clamp(16px, 1.3vw, 22px);
+    line-height: 1.5;
+    color: #fff;
+}
+
+
+/* ===================================
    2
 =================================== */
 
@@ -170,6 +239,7 @@
 .case--study-logo-anatomy {
     width: 100%;
     height: 100%;
+    margin-bottom: 60px;
 }
 
 .case--study-logo-anatomy .main-img {
@@ -227,7 +297,7 @@
 
 .sg-palette {
     display: grid;
-    grid-template-columns: repeat(10, 1fr);
+    grid-template-columns: repeat(6, 1fr);
     gap: 8px;
     margin-bottom: 32px;
 }
@@ -236,7 +306,8 @@
 
 .sg-swatch-box {
     width: 100%;
-    aspect-ratio: 1 / 0.4;
+    max-height: 60px;
+    aspect-ratio: 1/ 0.4;
     border-radius: 12px;
     margin-bottom: 6px;
 }
@@ -677,7 +748,6 @@
     }
     /* end */
     .sg-palette {
-        grid-template-columns: repeat(5, 1fr);
         margin-bottom: 25px;
     }
     .case--study-about-row .cs-subhead {
@@ -729,6 +799,10 @@
     .case--study-webscreen-quote-icon svg {
         width: 35px;
         height: 35px;
+    }
+    .sg-swatch-box {
+        max-height: 50px;
+        border-radius: 8px;
     }
 }
 
