@@ -378,14 +378,6 @@ ul.case--study-type-innern li .case--study-cat.case-bg-wt {
     object-fit: cover;
 }
 
-.desktop-img {
-    display: block;
-}
-
-.mobile-img {
-    display: none;
-}
-
 
 /* ===================================
    9
@@ -996,12 +988,6 @@ ul.case--study-type-innern li .case--study-cat.case-bg-wt {
     .banner-sec.case-study-main-sec {
         min-height: calc(100vh - 140px);
     }
-    .desktop-img {
-        display: none;
-    }
-    .mobile-img {
-        display: block;
-    }
 }
 
 @media (max-width: 575px) {
@@ -1024,7 +1010,7 @@ ul.case--study-type-innern li .case--study-cat.case-bg-wt {
         margin: 24px 0 18px;
     }
     .sg-palette {
-        grid-template-columns: repeat(4, 1fr);
+        grid-template-columns: repeat(3, 1fr);
     }
 }
 
@@ -1064,9 +1050,6 @@ ul.case--study-type-innern li .case--study-cat.case-bg-wt {
         -moz-border-radius: 16px;
         -ms-border-radius: 16px;
         -o-border-radius: 16px;
-    }
-    .sg-palette {
-        grid-template-columns: repeat(3, 1fr);
     }
 }
 
