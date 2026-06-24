@@ -66,7 +66,7 @@ ul.case--study-type-innern li .case--study-cat.case-bg-wt {
 /* CENTER CONTENT */
 
 .case--study-page-vv1 .section-title h2 {
-    font-size: clamp(30px, 4.27vw, 70px);
+    font-size: clamp(24px, 4.27vw, 70px);
 }
 
 .banner-center {
@@ -93,7 +93,7 @@ ul.case--study-type-innern li .case--study-cat.case-bg-wt {
 .banner-center p {
     max-width: 905px;
     margin: 0 auto;
-    font-size: clamp(16px, 1.3vw, 22px);
+    font-size: clamp(14px, 1.3vw, 22px);
     line-height: 1.5;
     color: #fff;
 }
@@ -378,13 +378,21 @@ ul.case--study-type-innern li .case--study-cat.case-bg-wt {
     object-fit: cover;
 }
 
+.desktop-img {
+    display: block;
+}
+
+.mobile-img {
+    display: none;
+}
+
 
 /* ===================================
    9
 =================================== */
 
 .case--study-features-main .case--study-logo-com-main {
-    padding: 15px 0px;
+    /* padding: 15px 0px; */
     width: 100%;
     display: flex;
     align-items: center;
@@ -400,6 +408,7 @@ ul.case--study-type-innern li .case--study-cat.case-bg-wt {
     max-width: 100%;
     max-height: 100%;
 }
+
 
 /* ===================================
    10
@@ -812,7 +821,6 @@ ul.case--study-type-innern li .case--study-cat.case-bg-wt {
     .case--study-features-main .case--study-logo-com-main {
         height: auto;
     }
-
     .case--study-banner-secn.banner-sec {
         padding-bottom: 0;
     }
@@ -975,6 +983,25 @@ ul.case--study-type-innern li .case--study-cat.case-bg-wt {
     .case--study-logo-anatomy {
         margin-bottom: 40px;
     }
+    .case--study-webscreen-img-row .mb-40 {
+        margin-bottom: 20px !important;
+    }
+    .case--study-webscreen-img-row .mt-40 {
+        margin-top: 20px !important;
+    }
+    .case--study-webscreen-img-row .mtb-40 {
+        margin-bottom: 20px !important;
+        margin-top: 20px !important;
+    }
+    .banner-sec.case-study-main-sec {
+        min-height: calc(100vh - 140px);
+    }
+    .desktop-img {
+        display: none;
+    }
+    .mobile-img {
+        display: block;
+    }
 }
 
 @media (max-width: 575px) {
@@ -1002,6 +1029,23 @@ ul.case--study-type-innern li .case--study-cat.case-bg-wt {
 }
 
 @media (max-width: 480px) {
+    .case--study-banner-inner {
+        height: 590px;
+    }
+    ul.case--study-type-innern li .case--study-cat {
+        padding: 4px 10px 6px;
+    }
+    .banner-center h1 {
+        font-size: 30px;
+        margin-bottom: 15px;
+    }
+    .case--study-banner-inner .case--study-nsw-main {
+        position: absolute;
+        bottom: 20px;
+    }
+    ul.case--study-type-innern li .case--study-cat {
+        padding: 4px 10px 6px;
+    }
     .case--study-webscreen-avatar {
         width: 35px;
         height: 35px;
