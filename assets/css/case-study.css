@@ -64,6 +64,7 @@ ul.case--study-type-innern li .case--study-cat.case-bg-wt {
 
 
 /* CENTER CONTENT */
+
 .case--study-page-vv1 .section-title h2 {
     font-size: clamp(30px, 4.27vw, 70px);
 }
@@ -308,13 +309,13 @@ ul.case--study-type-innern li .case--study-cat.case-bg-wt {
     left: 0;
     bottom: 0;
     width: 100%;
-    height: 8px;
+    height: 6px;
     border-radius: 10px;
     background: linear-gradient(90deg, #F4A896 0%, #FFFFFF 100%);
 }
 
 .sg-section-title {
-    font-size: 32px;
+    font-size: clamp(14px, 2.8vw, 32px);
     font-weight: 700;
     margin-bottom: 14px;
     margin-top: 4px;
@@ -374,10 +375,7 @@ ul.case--study-type-innern li .case--study-cat.case-bg-wt {
 .case--study-logo-com-main .main-img {
     width: 100%;
     height: 100%;
-    display: block;
     object-fit: cover;
-    object-fit: unset;
-    height: auto;
 }
 
 
@@ -573,7 +571,9 @@ ul.case--study-type-innern li .case--study-cat.case-bg-wt {
     -o-border-radius: 40px;
 }
 
+
 /* Pause animation when hovering the parent */
+
 .device-scroll-wrap:hover .scroll-bg-image {
     animation-play-state: paused;
 }
@@ -582,7 +582,6 @@ ul.case--study-type-innern li .case--study-cat.case-bg-wt {
     from {
         background-position: center top;
     }
-
     to {
         background-position: center bottom;
     }
@@ -646,7 +645,7 @@ ul.case--study-type-innern li .case--study-cat.case-bg-wt {
 }
 
 .case--study-cta-text-col {
-    padding-bottom: 40px;
+    padding-bottom: 165px;
 }
 
 .case--study-cta-headline {
@@ -690,14 +689,15 @@ ul.case--study-type-innern li .case--study-cat.case-bg-wt {
 =================================== */
 
 @media (max-width: 1699px) {
-
     /* Auto scrolling image sec */
     .device-scroll-wrap {
         height: 600px;
     }
-
     .device-scroll-wrap.device-phone {
         height: 550px;
+    }
+    .case--study-cta-text-col {
+        padding-bottom: 120px;
     }
 }
 
@@ -705,9 +705,11 @@ ul.case--study-type-innern li .case--study-cat.case-bg-wt {
     .case--study-banner-inner {
         height: 730px;
     }
-
     ul.case--study-type-innern li .case--study-cat.case-bg-wt {
         font-size: 16px;
+    }
+    .case--study-cta-text-col {
+        padding-bottom: 100px;
     }
 }
 
@@ -715,69 +717,58 @@ ul.case--study-type-innern li .case--study-cat.case-bg-wt {
     ul.case--study-type-innern li .case--study-cat.case-bg-wt {
         font-size: 14px;
     }
-
     /* Auto scrolling image sec */
     .device-scroll-wrap {
         height: 550px;
     }
-
     .device-scroll-wrap.device-phone {
         height: 500px;
     }
-
     /* end */
     .case--study-about-quote-text {
         font-size: 38px;
     }
-
     .case--study-webscreen-quote-textvv1 {
         font-size: 32px;
     }
-
     .case--study-webscreen-quote-icon {
         margin-top: -8px;
     }
-
     .case--study-webscreen-avatar {
         width: 50px;
         height: 50px;
         margin-right: 12px;
     }
-
     .case--study-webscreen-testimonial-name {
         font-size: 22px;
     }
-
     .case--study-webscreen-testimonial-role {
         font-size: 14px;
     }
-
     .case--study-about-psi-num {
         width: 30px;
         height: 30px;
         font-size: 14px;
         margin-right: 8px;
     }
-
     .case--study-about-psi-title {
         font-size: 22px;
     }
-
     .case--study-about-psi-text {
         font-size: 16px;
     }
-
     .case--study-about-img-hero,
     .case--study-about-img-split {
         border-radius: 30px;
     }
-
     .case--study-brand-heading {
         font-size: 36px;
     }
-
     .case--study-brand-desc {
         font-size: 14px;
+    }
+    .case--study-cta-text-col {
+        padding-bottom: 85px;
     }
 }
 
@@ -786,29 +777,27 @@ ul.case--study-type-innern li .case--study-cat.case-bg-wt {
         width: 30px;
         height: 30px;
     }
-
     /* Auto scrolling image sec */
     .device-scroll-wrap {
         height: 500px;
     }
-
     .device-scroll-wrap.device-phone {
         height: 450px;
     }
-
     /* end */
+    .case--study-cta-text-col {
+        padding-bottom: 65px;
+    }
 }
 
 @media (max-width: 1200px) {
     .case--study-banner-inner {
         height: 700px;
     }
-
     /* Auto scrolling image sec */
     .device-scroll-wrap.device-phone {
         margin: 0 0 0 auto;
     }
-
     .device-phone .scroll-bg-image {
         border-radius: 24px;
         -webkit-border-radius: 24px;
@@ -816,7 +805,6 @@ ul.case--study-type-innern li .case--study-cat.case-bg-wt {
         -ms-border-radius: 24px;
         -o-border-radius: 24px;
     }
-
     /* end */
 }
 
@@ -828,16 +816,13 @@ ul.case--study-type-innern li .case--study-cat.case-bg-wt {
     .case--study-banner-secn.banner-sec {
         padding-bottom: 0;
     }
-
     /* Auto scrolling image sec */
     .device-scroll-wrap {
         height: auto;
     }
-
     .device-scroll-wrap.device-phone {
         height: auto;
     }
-
     /* end */
 }
 
@@ -846,11 +831,9 @@ ul.case--study-type-innern li .case--study-cat.case-bg-wt {
         width: 25px;
         height: 25px;
     }
-
     .case--study-about-img-row {
         margin-bottom: 10px;
     }
-
     .case--study-about-img-hero,
     .case--study-about-img-split {
         border-radius: 20px;
@@ -859,104 +842,89 @@ ul.case--study-type-innern li .case--study-cat.case-bg-wt {
         -ms-border-radius: 20px;
         -o-border-radius: 20px;
     }
-
     .banner-center p br {
         display: none;
     }
-
     /* Auto scrolling image sec */
     .case--study-row-txtvv1 {
         margin-bottom: 40px;
     }
-
     /* end */
     .sg-palette {
         margin-bottom: 25px;
     }
-
     .case--study-about-row .cs-subhead {
         font-size: 20px;
     }
-
     .case--study-about-quote-text,
     .case--study-webscreen-quote-textvv1 {
         font-size: 30px;
     }
-
     .case--study-webscreen-testimonial-name {
         font-size: 18px;
     }
-
     .case--study-webscreen-testimonial-role {
         font-size: 12px;
     }
-
     .case--study-about-psi-text {
         font-size: 14px;
     }
-
     .case--study-about-psi-title {
         font-size: 18px;
     }
-
     .case--study-about-psi-num {
         width: 25px;
         height: 25px;
         font-size: 12px;
         margin-right: 8px;
     }
-
     .case--study-brand-desc {
         margin-left: 0px;
     }
-
     .case--study-brand-heading {
         font-size: 32px;
     }
-
     .case--study-row-txtvv1 {
         margin-bottom: 40px;
     }
-
     .case--study-webscreen-avatar {
         width: 40px;
         height: 40px;
     }
-
     .case--study-webscreen-quote-wrap {
         margin-bottom: 30px;
         gap: 10px;
     }
-
     .case--study-about-psi-row {
         margin-top: 50px;
         margin-bottom: 50px;
     }
-
     .case--study-webscreen-quote-icon svg {
         width: 35px;
         height: 35px;
     }
-
     .sg-swatch-box {
         max-height: 50px;
         border-radius: 8px;
     }
+    .case--study-cta-text-col {
+        padding-bottom: 35px;
+    }
+    .case--study-cta-divider {
+        margin: 20px 0;
+    }
 }
 
 @media (max-width: 767px) {
-
     /* Auto scrolling image sec */
     .parent-mobile-frame {
         margin-top: 24px;
     }
-
     .device-scroll-wrap.device-phone {
         max-width: 380px;
         height: 750px;
         margin: 0 auto;
     }
-
     .device-phone .scroll-bg-image {
         animation-duration: 100s;
         border-radius: 30px;
@@ -965,55 +933,47 @@ ul.case--study-type-innern li .case--study-cat.case-bg-wt {
         -ms-border-radius: 30px;
         -o-border-radius: 30px;
     }
-
     .device-phone .device-screen-viewport {
         padding: 8px 8px;
     }
-
     /* end */
     .case--study-about-row .cs-subhead {
         font-size: 18px;
     }
-
     .case--study-about-quote-text,
     .case--study-webscreen-quote-textvv1 {
         font-size: 24px;
     }
-
     .case--study-webscreen-quote-wrap {
         gap: 8px;
         margin-bottom: 20px;
     }
-
     .case--study-webscreen-testimonial-name {
         font-size: 16px;
     }
-
     .row.case--study-about-psi-row {
         margin-top: 40px;
         margin-bottom: 40px;
     }
-
     .case--study-about-psi-item {
         margin-bottom: 10px;
     }
-
     .case--study-about-quote-text,
     .case--study-webscreen-quote-textvv1 {
         font-size: 20px;
     }
-
     .case--study-webscreen-content {
         margin: 0 auto;
     }
-
     .case--study-row-txtvv1 {
         margin-bottom: 25px;
     }
-
     .case--study-webscreen-quote-icon svg {
         width: 18px;
         height: 18px;
+    }
+    .case--study-logo-anatomy {
+        margin-bottom: 40px;
     }
 }
 
@@ -1021,46 +981,38 @@ ul.case--study-type-innern li .case--study-cat.case-bg-wt {
     ul.case--study-type-innern li .case--study-cat.case-bg-wt {
         font-size: 12px;
     }
-
     /* Auto scrolling image sec */
     .device-scroll-wrap.device-phone {
         max-width: 300px;
         height: 540px;
     }
-
     /* end */
     .case--study-brand-heading {
         font-size: 28px;
     }
-
     .case--study-social-main .case--study-brand-heading br {
         display: none;
     }
-
     .case--study-cta-divider {
         margin: 24px 0 18px;
     }
-
     .sg-palette {
         grid-template-columns: repeat(4, 1fr);
     }
 }
 
 @media (max-width: 480px) {
-
     .case--study-webscreen-avatar {
         width: 35px;
         height: 35px;
         margin-right: 8px;
     }
-
     .case--study-webscreen-quote-icon {
         margin-top: -6px;
     }
 }
 
 @media (max-width: 380px) {
-
     .case--study-about-img-hero,
     .case--study-about-img-split {
         border-radius: 16px;
@@ -1069,7 +1021,6 @@ ul.case--study-type-innern li .case--study-cat.case-bg-wt {
         -ms-border-radius: 16px;
         -o-border-radius: 16px;
     }
-
     .sg-palette {
         grid-template-columns: repeat(3, 1fr);
     }
