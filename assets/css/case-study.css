@@ -541,6 +541,11 @@ ul.case--study-type-innern li .case--study-cat.case-bg-wt {
     -o-border-radius: 40px;
 }
 
+/* Pause animation when hovering the parent */
+.device-scroll-wrap:hover .scroll-bg-image {
+    animation-play-state: paused;
+}
+
 @keyframes scrollImg {
     from {
         background-position: center top;
