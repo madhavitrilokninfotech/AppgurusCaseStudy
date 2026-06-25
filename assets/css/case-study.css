@@ -48,6 +48,7 @@ ul.case--study-type-innern li .case--study-cat.case-bg-wt {
 .case--study-banner-video {
     position: absolute;
     inset: 0;
+    display: flex;
 }
 
 .case--study-banner-video video {
@@ -266,15 +267,17 @@ ul.case--study-type-innern li .case--study-cat.case-bg-wt {
 
 .case--study-logo-anatomy {
     width: 100%;
-    height: 100%;
+    height: auto;
+    margin-right: auto;
+    margin-left: auto;
     margin-bottom: 60px;
+    max-width: 85%;
 }
 
 .case--study-logo-anatomy .main-img {
-    width: 100%;
-    height: 100%;
+    max-width: 100%;
+    height: auto;
     display: block;
-    object-fit: cover;
 }
 
 .case--study-phone-mockup-box {
@@ -793,6 +796,13 @@ ul.case--study-type-innern li .case--study-cat.case-bg-wt {
     }
     .case--study-cta-text-col {
         padding-bottom: 85px;
+    }
+    .banner-center p {
+        max-width: 600px;
+        margin: 0 auto;
+        font-size: clamp(14px, 1.3vw, 22px);
+        line-height: 1.5;
+        color: #fff;
     }
 }
 
