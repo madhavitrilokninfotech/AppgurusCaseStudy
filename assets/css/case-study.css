@@ -490,11 +490,22 @@ ul.case--study-type-innern li .case--study-cat.case-bg-wt {
 
 /* Main phone */
 
-.phn-modal-img {
+
+/* .phn-modal-img {
     position: relative;
     z-index: 5;
     width: 100%;
     max-width: 400px;
+    height: auto;
+    display: block;
+    filter: drop-shadow(0 20px 35px rgba(0, 0, 0, 0.12)) drop-shadow(0 35px 80px rgba(0, 0, 0, 0.18));
+} */
+
+.phn-modal-img {
+    position: relative;
+    z-index: 5;
+    width: 100%;
+    max-width: 280px;
     height: auto;
     display: block;
     filter: drop-shadow(0 20px 35px rgba(0, 0, 0, 0.12)) drop-shadow(0 35px 80px rgba(0, 0, 0, 0.18));
