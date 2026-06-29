@@ -602,12 +602,96 @@ ul.case--study-type-innern li .case--study-cat.case-bg-wt {
     height: 100%;
 }
 
+/* ===================================
+   Brand Identity CSS - MatesInvest
+=================================== */
+.grandient-heading {
+    position: relative;
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    padding-left: 10px;
+    background: linear-gradient(90deg, #DCEAFF 19%, rgba(251, 251, 251, 0) 76%);
+}
+
+.grandient-heading::before {
+    content: "";
+    width: 6px;
+    height: 80px;
+    background: #1D61E7;
+    display: block;
+    margin-left: -10px;
+}
+
+.grandient-heading.case--study-brand-heading {
+    color: #000;
+    font-size: clamp(24px, 2.44vw, 40px);
+    font-weight: 600;
+}
+
+.grandient-heading span {
+    display: inline-block;
+    padding: 5px 8px 10px;
+}
+
+.light_gray {
+    color: #808080;
+}
+
+.mi-brand-identity-section .mi-brand-col-right,
+.mi-brand-identity-section .mi-brand-col-left {
+    position: relative;
+    z-index: 2;
+}
+
+.mi-brand-col-right .case--study-brand-desc {
+    max-width: 100%;
+    font-size: 20px;
+}
+
+.mi-brand-identity-section {
+    position: relative;
+    overflow-y: auto;
+}
+
+.mi-brand-identity-section .gradient-bg-left {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    z-index: 1;
+}
+
+.mi-brand-identity-section .gradient-bg-right {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    z-index: 1;
+}
+
+.bi-middle-img-wrap {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: -17em;
+}
+
+.bi-logo-image {
+    max-width: 1100px;
+}
 
 /* ===================================
    responsive css start
 =================================== */
 
 @media (max-width: 1699px) {
+
+    /* Brand Identity - MatInvest */
+    .mi-brand-col-right .case--study-brand-desc {
+        font-size: 16px;
+    }
+
+    /* end */
 
     /* Auto scrolling image sec */
     .device-scroll-wrap {
@@ -624,6 +708,18 @@ ul.case--study-type-innern li .case--study-cat.case-bg-wt {
 }
 
 @media (max-width: 1599px) {
+
+    /* Brand Identity - MatInvest */
+    .mi-brand-col-right .case--study-brand-desc {
+        font-size: 14px;
+    }
+
+    .grandient-heading::before {
+        width: 5px;
+        height: 70px;
+    }
+
+    /* end */
     .case--study-inner-pdvv1 {
         padding-top: 50px;
         padding-bottom: 50px;
@@ -724,6 +820,18 @@ ul.case--study-type-innern li .case--study-cat.case-bg-wt {
 }
 
 @media (max-width: 1399px) {
+
+    /* Brand Identity - MatInvest */
+    .grandient-heading {
+        gap: 4px;
+    }
+
+    .grandient-heading::before {
+        width: 4px;
+        height: 60px;
+    }
+
+    /* end */
     .case--study-webscreen-quote-icon svg {
         width: 30px;
         height: 30px;
@@ -766,6 +874,18 @@ ul.case--study-type-innern li .case--study-cat.case-bg-wt {
 }
 
 @media (max-width: 1199px) {
+
+
+    /* Brand Identity - MatInvest */
+    .grandient-heading span {
+        padding: 5px 8px 8px;
+    }
+
+    .grandient-heading::before {
+        height: 56px;
+    }
+
+    /* end */
     .case--study-features-main .case--study-logo-com-main {
         height: auto;
     }
@@ -999,6 +1119,17 @@ ul.case--study-type-innern li .case--study-cat.case-bg-wt {
 }
 
 @media (max-width: 575px) {
+
+    /* Brand Identity - MatInvest */
+    .grandient-heading::before {
+        height: 46px;
+    }
+
+    .grandient-heading {
+        gap: 2px;
+    }
+
+    /* end */
     ul.case--study-type-innern li .case--study-cat.case-bg-wt {
         font-size: 12px;
     }
