@@ -309,17 +309,6 @@ ul.case--study-type-innern li .case--study-cat.case-bg-wt {
     padding-bottom: 12px;
 }
 
-
-/* .case--study-cps-com-aftervv1 {
-    position: absolute;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    height: 6px;
-    border-radius: 10px;
-    background: linear-gradient(90deg, #F4A896 0%, #FFFFFF 100%);
-} */
-
 .sg-section-title {
     font-size: clamp(14px, 2.8vw, 32px);
     font-weight: 700;
@@ -407,65 +396,6 @@ ul.case--study-type-innern li .case--study-cat.case-bg-wt {
     max-height: 100%;
 }
 
-
-/* ===================================
-   10
-=================================== */
-
-
-/* .application-vv1 {
-    position: relative;
-    width: 100%;
-    object-fit: contain;
-    overflow: hidden;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background: url('/assets/images/nanylane-case-img/bg-application.png') center center / cover no-repeat;
-}
-
-.application-vv1::before {
-    content: "";
-    position: absolute;
-    background: url('/assets/images/nanylane-case-img/application-bg.png') center center / cover no-repeat;
-    opacity: 0.12;
-    background: rgba(255, 255, 255, .55);
-    z-index: 1;
-}
-
-.application-vv1::after {
-    content: "";
-    position: absolute;
-    background: rgba(255, 255, 255, .55);
-    z-index: 2;
-}
-
-.phn-modal-img {
-    position: relative;
-    z-index: 4;
-    width: 100%;
-    max-width: 400px;
-    display: block;
-    margin: 0 auto;
-    filter: drop-shadow(0 10px 15px rgba(0, 0, 0, .15)) drop-shadow(0 25px 50px rgba(0, 0, 0, .18));
-} */
-
-
-/* .application-vv1 {
-    position: relative;
-    width: 100%;
-    min-height: 800px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    overflow: hidden;
-    background: url("../images/nanylane-case-img/bg-application.png") center center / cover no-repeat;
-} */
-
-
-/* White fade overlay */
-
-
 /* Top fade */
 
 .application-vv1::before {
@@ -478,7 +408,6 @@ ul.case--study-type-innern li .case--study-cat.case-bg-wt {
     z-index: 1;
     background: linear-gradient(to bottom, rgba(255, 255, 255, 0.95) 0%, rgba(255, 255, 255, 0) 100%);
 }
-
 
 /* Bottom fade */
 
@@ -493,19 +422,7 @@ ul.case--study-type-innern li .case--study-cat.case-bg-wt {
     background: linear-gradient(to top, rgba(255, 255, 255, 0.95) 0%, rgba(255, 255, 255, 0) 100%);
 }
 
-
 /* Main phone */
-
-
-/* .phn-modal-img {
-    position: relative;
-    z-index: 5;
-    width: 100%;
-    max-width: 400px;
-    height: auto;
-    display: block;
-    filter: drop-shadow(0 20px 35px rgba(0, 0, 0, 0.12)) drop-shadow(0 35px 80px rgba(0, 0, 0, 0.18));
-} */
 
 .phn-modal-img {
     position: relative;
@@ -522,26 +439,12 @@ ul.case--study-type-innern li .case--study-cat.case-bg-wt {
    11
 =================================== */
 
-
-/* .device-scroll-wrapvv1 {
-    width: 100%;
-    max-width: 280px;
-    margin: auto;
-    position: relative;
-    border-radius: 45px;
-    background: url('/assets/images/nanylane-case-img/phn-bg-scr.png') no-repeat;
-    background-size: cover;
-    box-shadow: 0 20px 60px rgba(0, 0, 0, .08), 0 8px 24px rgba(0, 0, 0, .06);
-} */
-
 .device-scroll-wrap {
-    /* aspect-ratio: 1212 / 700; */
     width: 100%;
     height: 700px;
     overflow: hidden;
     margin: auto;
     position: relative;
-    /* box-shadow: 0 20px 60px rgba(0, 0, 0, .08), 0 8px 24px rgba(0, 0, 0, .06); */
 }
 
 .tab-frame-image {
@@ -600,6 +503,7 @@ ul.case--study-type-innern li .case--study-cat.case-bg-wt {
     from {
         background-position: center top;
     }
+
     to {
         background-position: center bottom;
     }
@@ -685,14 +589,6 @@ ul.case--study-type-innern li .case--study-cat.case-bg-wt {
     text-decoration: underline;
 }
 
-
-/* .case--study-cta-phones-col {
-    position: relative;
-    display: flex;
-    align-items: flex-end;
-    justify-content: flex-end;
-} */
-
 .case--study-cta-phones {
     position: relative;
     width: 100%;
@@ -712,13 +608,16 @@ ul.case--study-type-innern li .case--study-cat.case-bg-wt {
 =================================== */
 
 @media (max-width: 1699px) {
+
     /* Auto scrolling image sec */
     .device-scroll-wrap {
         height: 600px;
     }
+
     .device-scroll-wrap.device-phone {
         height: 550px;
     }
+
     .case--study-cta-text-col {
         padding-bottom: 120px;
     }
@@ -729,12 +628,15 @@ ul.case--study-type-innern li .case--study-cat.case-bg-wt {
         padding-top: 50px;
         padding-bottom: 50px;
     }
+
     .case--study-banner-inner {
         height: 730px;
     }
+
     ul.case--study-type-innern li .case--study-cat.case-bg-wt {
         font-size: 16px;
     }
+
     .case--study-cta-text-col {
         padding-bottom: 100px;
     }
@@ -744,59 +646,74 @@ ul.case--study-type-innern li .case--study-cat.case-bg-wt {
     ul.case--study-type-innern li .case--study-cat.case-bg-wt {
         font-size: 14px;
     }
+
     /* Auto scrolling image sec */
     .device-scroll-wrap {
         height: 550px;
     }
+
     .device-scroll-wrap.device-phone {
         height: 500px;
     }
+
     /* end */
     .case--study-about-quote-text {
         font-size: 38px;
     }
+
     .case--study-webscreen-quote-textvv1 {
         font-size: 32px;
     }
+
     .case--study-webscreen-quote-icon {
         margin-top: -8px;
     }
+
     .case--study-webscreen-avatar {
         width: 50px;
         height: 50px;
         margin-right: 12px;
     }
+
     .case--study-webscreen-testimonial-name {
         font-size: 22px;
     }
+
     .case--study-webscreen-testimonial-role {
         font-size: 14px;
     }
+
     .case--study-about-psi-num {
         width: 30px;
         height: 30px;
         font-size: 14px;
         margin-right: 8px;
     }
+
     .case--study-about-psi-title {
         font-size: 22px;
     }
+
     .case--study-about-psi-text {
         font-size: 16px;
     }
+
     .case--study-about-img-hero,
     .case--study-about-img-split {
         border-radius: 30px;
     }
+
     /* .case--study-brand-heading {
         font-size: 36px;
     } */
     .case--study-brand-desc {
         font-size: 14px;
     }
+
     .case--study-cta-text-col {
         padding-bottom: 85px;
     }
+
     .banner-center p {
         max-width: 600px;
         margin: 0 auto;
@@ -811,13 +728,16 @@ ul.case--study-type-innern li .case--study-cat.case-bg-wt {
         width: 30px;
         height: 30px;
     }
+
     /* Auto scrolling image sec */
     .device-scroll-wrap {
         height: 500px;
     }
+
     .device-scroll-wrap.device-phone {
         height: 450px;
     }
+
     /* end */
     .case--study-cta-text-col {
         padding-bottom: 65px;
@@ -828,10 +748,12 @@ ul.case--study-type-innern li .case--study-cat.case-bg-wt {
     .case--study-banner-inner {
         height: 700px;
     }
+
     /* Auto scrolling image sec */
     .device-scroll-wrap.device-phone {
         margin: 0 0 0 auto;
     }
+
     .device-phone .scroll-bg-image {
         border-radius: 24px;
         -webkit-border-radius: 24px;
@@ -839,6 +761,7 @@ ul.case--study-type-innern li .case--study-cat.case-bg-wt {
         -ms-border-radius: 24px;
         -o-border-radius: 24px;
     }
+
     /* end */
 }
 
@@ -846,16 +769,20 @@ ul.case--study-type-innern li .case--study-cat.case-bg-wt {
     .case--study-features-main .case--study-logo-com-main {
         height: auto;
     }
+
     .case--study-banner-secn.banner-sec {
         padding-bottom: 0;
     }
+
     /* Auto scrolling image sec */
     .device-scroll-wrap {
         height: auto;
     }
+
     .device-scroll-wrap.device-phone {
         height: auto;
     }
+
     /* end */
 }
 
@@ -864,9 +791,11 @@ ul.case--study-type-innern li .case--study-cat.case-bg-wt {
         width: 25px;
         height: 25px;
     }
+
     .case--study-about-img-row {
         margin-bottom: 10px;
     }
+
     .case--study-about-img-hero,
     .case--study-about-img-split {
         border-radius: 20px;
@@ -875,77 +804,97 @@ ul.case--study-type-innern li .case--study-cat.case-bg-wt {
         -ms-border-radius: 20px;
         -o-border-radius: 20px;
     }
+
     .banner-center p br {
         display: none;
     }
+
     /* Auto scrolling image sec */
     .case--study-row-txtvv1 {
         margin-bottom: 40px;
     }
+
     /* end */
     .sg-palette {
         margin-bottom: 25px;
     }
+
     .case--study-about-row .cs-subhead {
         font-size: 20px;
     }
+
     .case--study-about-quote-text,
     .case--study-webscreen-quote-textvv1 {
         font-size: 30px;
     }
+
     .case--study-webscreen-testimonial-name {
         font-size: 18px;
     }
+
     .case--study-webscreen-testimonial-role {
         font-size: 12px;
     }
+
     .case--study-about-psi-text {
         font-size: 14px;
     }
+
     .case--study-about-psi-title {
         font-size: 18px;
     }
+
     .case--study-about-psi-num {
         width: 25px;
         height: 25px;
         font-size: 12px;
         margin-right: 8px;
     }
+
     .case--study-brand-desc {
         margin-left: 0px;
     }
+
     /* .case--study-brand-heading {
         font-size: 32px;
     } */
     .case--study-row-txtvv1 {
         margin-bottom: 40px;
     }
+
     .case--study-webscreen-avatar {
         width: 40px;
         height: 40px;
     }
+
     .case--study-webscreen-quote-wrap {
         margin-bottom: 30px;
         gap: 10px;
     }
+
     .case--study-about-psi-row {
         margin-top: 50px;
         margin-bottom: 50px;
     }
+
     .case--study-webscreen-quote-icon svg {
         width: 35px;
         height: 35px;
     }
+
     .sg-swatch-box {
         max-height: 50px;
         border-radius: 8px;
     }
+
     .case--study-cta-text-col {
         padding-bottom: 35px;
     }
+
     .case--study-cta-divider {
         margin: 20px 0;
     }
+
     .phn-modal-img {
         max-width: 280px;
     }
@@ -956,15 +905,18 @@ ul.case--study-type-innern li .case--study-cat.case-bg-wt {
         padding-top: 35px;
         padding-bottom: 35px;
     }
+
     /* Auto scrolling image sec */
     .parent-mobile-frame {
         margin-top: 24px;
     }
+
     .device-scroll-wrap.device-phone {
         max-width: 380px;
         height: 750px;
         margin: 0 auto;
     }
+
     .device-phone .scroll-bg-image {
         animation-duration: 100s;
         border-radius: 30px;
@@ -973,58 +925,74 @@ ul.case--study-type-innern li .case--study-cat.case-bg-wt {
         -ms-border-radius: 30px;
         -o-border-radius: 30px;
     }
+
     .device-phone .device-screen-viewport {
         padding: 8px 8px;
     }
+
     /* end */
     .case--study-about-row .cs-subhead {
         font-size: 18px;
     }
+
     .case--study-about-quote-text,
     .case--study-webscreen-quote-textvv1 {
         font-size: 24px;
     }
+
     .case--study-webscreen-quote-wrap {
         gap: 8px;
         margin-bottom: 20px;
     }
+
     .case--study-webscreen-testimonial-name {
         font-size: 16px;
     }
+
     .row.case--study-about-psi-row {
         margin-top: 40px;
         margin-bottom: 40px;
     }
+
     .case--study-about-psi-item {
         margin-bottom: 10px;
     }
+
     .case--study-about-quote-text,
     .case--study-webscreen-quote-textvv1 {
         font-size: 20px;
     }
+
     .case--study-webscreen-content {
         margin: 0 auto;
     }
+
     .case--study-row-txtvv1 {
         margin-bottom: 25px;
     }
+
     .case--study-webscreen-quote-icon svg {
         width: 18px;
         height: 18px;
     }
+
     .case--study-logo-anatomy {
         margin-bottom: 40px;
     }
+
     .case--study-webscreen-img-row .mb-40 {
         margin-bottom: 20px !important;
     }
+
     .case--study-webscreen-img-row .mt-40 {
         margin-top: 20px !important;
     }
+
     .case--study-webscreen-img-row .mtb-40 {
         margin-bottom: 20px !important;
         margin-top: 20px !important;
     }
+
     .banner-sec.case-study-main-sec {
         min-height: calc(100vh - 140px);
     }
@@ -1034,11 +1002,13 @@ ul.case--study-type-innern li .case--study-cat.case-bg-wt {
     ul.case--study-type-innern li .case--study-cat.case-bg-wt {
         font-size: 12px;
     }
+
     /* Auto scrolling image sec */
     .device-scroll-wrap.device-phone {
         max-width: 300px;
         height: 540px;
     }
+
     /* end */
     /* .case--study-brand-heading {
         font-size: 28px;
@@ -1046,12 +1016,15 @@ ul.case--study-type-innern li .case--study-cat.case-bg-wt {
     .case--study-social-main .case--study-brand-heading br {
         display: none;
     }
+
     .case--study-cta-divider {
         margin: 24px 0 18px;
     }
+
     .sg-palette {
         grid-template-columns: repeat(3, 1fr);
     }
+
     .phn-modal-img {
         max-width: 220px;
     }
@@ -1061,31 +1034,38 @@ ul.case--study-type-innern li .case--study-cat.case-bg-wt {
     .case--study-banner-inner {
         height: 590px;
     }
+
     ul.case--study-type-innern li .case--study-cat {
         padding: 4px 10px 6px;
     }
+
     .banner-center h1 {
         font-size: 30px;
         margin-bottom: 15px;
     }
+
     .case--study-banner-inner .case--study-nsw-main {
         position: absolute;
         bottom: 20px;
     }
+
     ul.case--study-type-innern li .case--study-cat {
         padding: 4px 10px 6px;
     }
+
     .case--study-webscreen-avatar {
         width: 35px;
         height: 35px;
         margin-right: 8px;
     }
+
     .case--study-webscreen-quote-icon {
         margin-top: -6px;
     }
 }
 
 @media (max-width: 380px) {
+
     .case--study-about-img-hero,
     .case--study-about-img-split {
         border-radius: 16px;
