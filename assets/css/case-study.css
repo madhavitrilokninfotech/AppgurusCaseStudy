@@ -687,6 +687,14 @@ ul.case--study-type-innern li .case--study-cat.case-bg-wt {
    Brand Identity CSS - MatesInvest
 =================================== */
 
+.case--study-page-matesinvests .case--study-banner-secn {
+    background: transparent;
+    min-height: auto;
+    display: block;
+    overflow: hidden;
+    padding-bottom: 0px;
+}
+
 .case--study-page-matesinvests {
     background: #fbfbfb;
 }
@@ -706,67 +714,185 @@ ul.case--study-type-innern li .case--study-cat.case-bg-wt {
     padding: 60px 0;
 }
 
-.case--study-row-txt {
-    margin-bottom: 40px;
-}
-
-.cs-head {
-    font-size: 22px;
-    padding-left: 14px;
-    border-left: 4px solid #120487;
-    line-height: 1.3;
-}
-
-.cs-p {
-    font-size: 14px;
-    color: #555;
-    line-height: 1.7;
-    margin: 0;
-}
-
-.case--study-cps-inner {
+.case--study-challenges-mate-main .case--study-cps-inner {
     background: #fff;
-    border-radius: 16px;
-    padding: 32px 28px;
+    border-radius: 25px;
+    padding: 30px;
 }
 
+.case--study-cps-inner .case-study-c-imgs {
+    width: 60px;
+    height: 60px;
+}
 
-/* ── Icon circle ── */
-
-.case--study-cps-p {
-    font-size: 30px;
+.case--study-challenges-mate-main .case--study-cps-p {
+    font-size: clamp(18px, 2.2vw, 30px);
     margin-bottom: 16px;
     margin-top: 8px;
 }
 
-.case--study-cps-points {
+.case--study-challenges-mate-main .case--study-cps-points {
     margin: 0;
     padding: 0;
 }
 
-.case--study-cps-points li {
-    font-size: 22px;
+.case--study-challenges-mate-main .case--study-cps-points li {
+    font-size: clamp(14px, 1.6vw, 20px);
     color: #808080;
-    line-height: 1.7;
-    padding-left: 18px;
-    margin-bottom: 12px;
+    padding-left: 16px;
+    margin-bottom: 18px;
+    font-weight: 500;
 }
 
-.case--study-cps-bullet {
+.case--study-challenges-mate-main .case--study-cps-bullet {
     position: absolute;
     left: 0;
-    top: 15px;
-    width: 10px;
-    height: 10px;
+    top: 10px;
+    width: 6px;
+    height: 6px;
     border-radius: 50%;
     background: #808080;
 }
 
+.case--study-challenges-mate-main .case--study-cps-imgvv1 img {
+    border-radius: 25px;
+}
 
-/* ── Spacing between two cards ── */
-
-.case--study-cps-solutions {
+.case--study-challenges-mate-main .case--study-cps-solutions {
     margin-bottom: 0;
+}
+
+.case-study-main-center-secvv1 {
+    padding-top: 80px;
+}
+
+.case-study-main-center-secvv1 .cs-about-desc {
+    font-size: clamp(16px, 2.0vw, 24px);
+    color: #555;
+    line-height: 1.8;
+    margin-bottom: 30px;
+    max-width: 1050px;
+}
+
+.case-study-main-center-secvv1 .cs-about-gurus {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-bottom: 50px;
+}
+
+.cs-about-gurus .cs-gurus-avatar {
+    width: 74px;
+    height: 74px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.cs-gurus-info {
+    display: flex;
+    flex-direction: column;
+}
+
+.cs-gurus-info .cs-gurus-name {
+    font-size: 26px;
+    font-weight: 700;
+    color: #000;
+    line-height: 1.3;
+}
+
+.cs-.cs-gurus-info .cs-gurus-location {
+    font-size: 20px;
+    color: #808080;
+    font-weight: 500;
+}
+
+.case-study-main-center-secvv1 .cs-about-meta-row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 94px;
+}
+
+.cs-about-meta-item {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 0 30px;
+    position: relative;
+}
+
+.cs-about-meta-item:first-child {
+    padding-left: 0;
+}
+
+.cs-about-meta-item:last-child {
+    padding-right: 0;
+}
+
+
+/* Vertical divider line */
+
+.cs-about-meta-item::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 1px;
+    height: 40px;
+    background: #D8DADC;
+}
+
+.cs-about-meta-item:first-child::before {
+    display: none;
+}
+
+.cs-about-meta-row .cs-about-meta-item img {
+    width: 64px;
+    height: 64px;
+    object-fit: contain;
+    flex-shrink: 0;
+}
+
+.cs-meta-info {
+    display: flex;
+    flex-direction: column;
+}
+
+.cs-meta-info .cs-meta-label {
+    font-size: clamp(16px, 2.0vw, 24px);
+    color: #000;
+    font-weight: 600;
+    line-height: 1.3;
+}
+
+.cs-meta-info .cs-meta-value {
+    font-size: 18px;
+    font-weight: 500;
+    color: #808080;
+    line-height: 1.4;
+}
+
+.case--study-about-mate-main .case-study-about-bottom-mainvv1 {
+    padding: 80px 60px 100px;
+}
+
+.case-study-about-bottom-mainvv1 .cs-about-banner {
+    width: 100%;
+    overflow: hidden;
+    border-radius: 70px;
+}
+
+.cs-about-banner-img {
+    width: 100%;
+    height: auto;
+    display: block;
+    object-fit: cover;
+}
+
+.case--study-main-bg-imgvv1 .about-bg-img {
+    position: absolute;
+    top: 0;
+    right: 0;
 }
 
 
@@ -789,6 +915,9 @@ ul.case--study-type-innern li .case--study-cat.case-bg-wt {
     }
     .case--study-cta-text-col {
         padding-bottom: 120px;
+    }
+    .case-study-main-center-secvv1 .cs-about-meta-row {
+        gap: 30px;
     }
 }
 
@@ -814,6 +943,9 @@ ul.case--study-type-innern li .case--study-cat.case-bg-wt {
     }
     .case--study-cta-text-col {
         padding-bottom: 100px;
+    }
+    .case-study-main-center-secvv1 .cs-about-meta-row {
+        gap: 10px;
     }
 }
 
@@ -881,6 +1013,25 @@ ul.case--study-type-innern li .case--study-cat.case-bg-wt {
         line-height: 1.5;
         color: #fff;
     }
+    .case-study-main-center-secvv1 .cs-about-gurus {
+        margin-bottom: 30px;
+    }
+    .case-study-main-center-secvv1 .cs-about-meta-row {
+        gap: 35px;
+    }
+    .cs-about-meta-item {
+        padding: 0 22px;
+    }
+    .cs-about-meta-row .cs-about-meta-item img {
+        width: 56px;
+        height: 56px;
+    }
+    .cs-meta-info .cs-meta-label {
+        font-size: 20px;
+    }
+    .cs-meta-info .cs-meta-value {
+        font-size: 16px;
+    }
 }
 
 @media (max-width: 1399px) {
@@ -908,6 +1059,12 @@ ul.case--study-type-innern li .case--study-cat.case-bg-wt {
     .case--study-cta-text-col {
         padding-bottom: 65px;
     }
+    .case-study-about-bottom-mainvv1 .cs-about-banner {
+        border-radius: 55px;
+    }
+    .case-study-main-center-secvv1 .cs-about-meta-row {
+        gap: 10px;
+    }
 }
 
 @media (max-width: 1200px) {
@@ -926,6 +1083,12 @@ ul.case--study-type-innern li .case--study-cat.case-bg-wt {
         -o-border-radius: 24px;
     }
     /* end */
+    .cs-gurus-info .cs-gurus-name {
+        font-size: 22px;
+    }
+    .cs-about-meta-item {
+        padding: 0 12px;
+    }
 }
 
 @media (max-width: 1199px) {
@@ -951,6 +1114,63 @@ ul.case--study-type-innern li .case--study-cat.case-bg-wt {
         height: auto;
     }
     /* end */
+    .case--study-cps-inner .case-study-c-imgs {
+        width: 50px;
+        height: 50px;
+    }
+    .case--study-challenges-mate-main .case--study-cps-inner {
+        padding: 25px;
+        border-radius: 15px;
+    }
+    .case--study-challenges-mate-main .case--study-cps-imgvv1 img {
+        border-radius: 15px;
+    }
+    .case--study-challenges-mate-main .case--study-cps-points li {
+        padding-left: 14px;
+    }
+    .cs-about-meta-row .cs-about-meta-item img {
+        width: 54px;
+        height: 54px;
+    }
+    .cs-about-gurus .cs-gurus-avatar {
+        width: 55px;
+        height: 55px;
+    }
+    .cs-gurus-info .cs-gurus-name {
+        font-size: 19px;
+    }
+    .cs-gurus-info .cs-gurus-location {
+        font-size: 17px;
+    }
+    .cs-meta-info .cs-meta-value {
+        font-size: 16px;
+    }
+    .case-study-about-bottom-mainvv1 .cs-about-banner {
+        border-radius: 40px;
+    }
+    .case--study-about-mate-main .case-study-about-bottom-mainvv1 {
+        padding: 60px 40px 0px;
+    }
+    .case-study-main-center-secvv1 {
+        padding-top: 30px;
+    }
+    .case-study-main-center-secvv1 .cs-about-meta-row {
+        gap: 25px;
+        justify-content: center;
+    }
+    .cs-about-meta-item {
+        padding: 0 15px;
+    }
+    .cs-about-meta-row .cs-about-meta-item img {
+        width: 50px;
+        height: 50px;
+    }
+    .cs-meta-info .cs-meta-label {
+        font-size: 18px;
+    }
+    .cs-meta-info .cs-meta-value {
+        font-size: 15px;
+    }
 }
 
 @media (max-width: 991px) {
@@ -1043,6 +1263,34 @@ ul.case--study-type-innern li .case--study-cat.case-bg-wt {
     .phn-modal-img {
         max-width: 280px;
     }
+    .case--study-challenges-mate-main {
+        padding: 50px 0;
+    }
+    .case--study-challenges-mate-main .case--study-cps-inner {
+        padding: 25px;
+        border-radius: 20px;
+    }
+    .case--study-challenges-mate-main .case--study-cps-imgvv1 img {
+        border-radius: 20px;
+    }
+    .case--study-challenges-mate-main .case--study-cps-problems {
+        margin-bottom: 35px;
+    }
+    .cs-about-meta-row .cs-about-meta-item img {
+        width: 45px;
+        height: 45px;
+    }
+    .case-study-main-center-secvv1 .cs-about-meta-row {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 30px;
+    }
+    .cs-about-meta-item {
+        padding: 0;
+    }
+    .cs-about-meta-item::before {
+        display: none;
+    }
 }
 
 @media (max-width: 767px) {
@@ -1122,6 +1370,62 @@ ul.case--study-type-innern li .case--study-cat.case-bg-wt {
     .banner-sec.case-study-main-sec {
         min-height: calc(100vh - 140px);
     }
+    .case--study-page-matesinvests .banner-sec {
+        min-height: auto;
+        padding-bottom: 0;
+    }
+    .case--study-challenges-mate-main {
+        padding: 40px 0;
+    }
+    .case--study-about-mate-main .case-study-about-bottom-mainvv1 {
+        padding: 40px 30px 0px;
+    }
+    .case-study-about-bottom-mainvv1 .cs-about-banner {
+        border-radius: 20px;
+    }
+    .cs-about-gurus .cs-gurus-avatar {
+        width: 50px;
+        height: 50px;
+    }
+    .cs-gurus-info .cs-gurus-location {
+        font-size: 16px;
+    }
+    .cs-gurus-info .cs-gurus-name {
+        font-size: 18px;
+    }
+    .case--study-cps-imgvv1 {
+        margin-top: 30px;
+        display: flex;
+        /* align-items: flex-end; */
+        justify-content: center;
+    }
+    .case--study-challenges-mate-main .case--study-cps-p {
+        margin-bottom: 12px;
+        margin-top: 8px;
+    }
+    .case-study-main-center-secvv1 .cs-about-meta-row {
+        grid-template-columns: repeat(1, 1fr);
+        gap: 15px;
+    }
+    .cs-about-meta-item {
+        align-items: center;
+        padding: 15px;
+        border: 1px solid #E8E8E8;
+        border-radius: 14px;
+        background: #fff;
+    }
+    .cs-about-meta-item:first-child {
+        padding-left: 15px;
+    }
+    .cs-about-meta-item:last-child {
+        padding-right: 15px;
+    }
+    .cs-meta-info .cs-meta-label {
+        font-size: 16px;
+    }
+    .cs-meta-info .cs-meta-value {
+        font-size: 14px;
+    }
 }
 
 @media (max-width: 575px) {
@@ -1156,6 +1460,14 @@ ul.case--study-type-innern li .case--study-cat.case-bg-wt {
     }
     .phn-modal-img {
         max-width: 220px;
+    }
+    .cs-about-meta-item {
+        gap: 14px;
+        padding: 15px;
+        border-radius: 12px;
+    }
+    .case--study-about-mate-main .case-study-about-bottom-mainvv1 {
+        padding: 30px 22px 0px;
     }
 }
 
@@ -1195,6 +1507,26 @@ ul.case--study-type-innern li .case--study-cat.case-bg-wt {
         -moz-border-radius: 16px;
         -ms-border-radius: 16px;
         -o-border-radius: 16px;
+    }
+    .cs-about-meta-item {
+        gap: 12px;
+        padding: 12px;
+    }
+    .cs-about-meta-row .cs-about-meta-item img {
+        width: 40px;
+        height: 40px;
+    }
+    .cs-meta-info .cs-meta-label {
+        font-size: 14px;
+    }
+    .cs-meta-info .cs-meta-value {
+        font-size: 12px;
+    }
+    .cs-about-meta-item:first-child {
+        padding-left: 12px;
+    }
+    .cs-about-meta-item:first-child {
+        padding-right: 12px;
     }
 }
 
