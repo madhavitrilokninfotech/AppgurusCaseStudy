@@ -1,1738 +1,1725 @@
-/* nanylane-css start */
-
-.case--study-page-vv1 {
-    background: #ffffff;
-}
-
-.mb-40 {
-    margin-bottom: 40px !important;
-}
-
-.mt-40 {
-    margin-top: 40px !important;
-}
-
-.mtb-40 {
-    margin-bottom: 40px !important;
-    margin-top: 40px !important;
-}
-
-.case--study-inner-pdvv1 {
-    padding-top: 70px;
-    padding-bottom: 70px;
-}
-
-
-/* ===================================
+            /* nanylane-css start */
+            
+            .case--study-page-vv1 {
+                background: #ffffff;
+            }
+            
+            .mb-40 {
+                margin-bottom: 40px !important;
+            }
+            
+            .mt-40 {
+                margin-top: 40px !important;
+            }
+            
+            .mtb-40 {
+                margin-bottom: 40px !important;
+                margin-top: 40px !important;
+            }
+            
+            .case--study-inner-pdvv1 {
+                padding-top: 70px;
+                padding-bottom: 70px;
+            }
+            /* ===================================
    1
 =================================== */
-
-.case-study-main-sec .case--study-banner-inner {
-    position: relative;
-    height: 900px;
-    overflow: hidden;
-}
-
-ul.case--study-type-innern li .case--study-cat.case-bg-wt {
-    background-color: rgba(255, 255, 255, 0.35);
-    font-size: 18px;
-}
-
-.section-title h2.cap-text {
-    text-transform: capitalize;
-}
-
-
-/* VIDEO */
-
-.case--study-banner-video {
-    position: absolute;
-    inset: 0;
-    display: flex;
-}
-
-.case--study-banner-video video {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    object-position: top center;
-    display: block;
-}
-
-
-/* DARK OVERLAY */
-
-.banner-overlay {
-    position: absolute;
-    inset: 0;
-    background: rgba(0, 0, 0, 0.6);
-}
-
-
-/* CENTER CONTENT */
-
-.case--study-page-vv1 .section-title h2 {
-    font-size: clamp(24px, 4.27vw, 70px);
-}
-
-.banner-center {
-    position: absolute;
-    top: 52%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    text-align: center;
-    width: 100%;
-}
-
-.banner-center h1 {
-    font-size: clamp(36px, 4.6vw, 82px);
-    line-height: 1.2;
-    font-weight: 700;
-    color: #fff;
-    margin-bottom: 25px;
-}
-
-.highlight {
-    color: #F7A79A;
-}
-
-.banner-center p {
-    max-width: 905px;
-    margin: 0 auto;
-    font-size: clamp(14px, 1.3vw, 22px);
-    line-height: 1.5;
-    color: #fff;
-}
-
-
-/* ===================================
+            
+            .case-study-main-sec .case--study-banner-inner {
+                position: relative;
+                height: 900px;
+                overflow: hidden;
+            }
+            
+            ul.case--study-type-innern li .case--study-cat.case-bg-wt {
+                background-color: rgba(255, 255, 255, 0.35);
+                font-size: 18px;
+            }
+            
+            .section-title h2.cap-text {
+                text-transform: capitalize;
+            }
+            /* VIDEO */
+            
+            .case--study-banner-video {
+                position: absolute;
+                inset: 0;
+                display: flex;
+            }
+            
+            .case--study-banner-video video {
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+                object-position: top center;
+                display: block;
+            }
+            /* DARK OVERLAY */
+            
+            .banner-overlay {
+                position: absolute;
+                inset: 0;
+                background: rgba(0, 0, 0, 0.6);
+            }
+            /* CENTER CONTENT */
+            
+            .case--study-page-vv1 .section-title h2 {
+                font-size: clamp(24px, 4.27vw, 70px);
+            }
+            
+            .banner-center {
+                position: absolute;
+                top: 52%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+                text-align: center;
+                width: 100%;
+            }
+            
+            .banner-center h1 {
+                font-size: clamp(36px, 4.6vw, 82px);
+                line-height: 1.2;
+                font-weight: 700;
+                color: #fff;
+                margin-bottom: 25px;
+            }
+            
+            .highlight {
+                color: #F7A79A;
+            }
+            
+            .banner-center p {
+                max-width: 905px;
+                margin: 0 auto;
+                font-size: clamp(14px, 1.3vw, 22px);
+                line-height: 1.5;
+                color: #fff;
+            }
+            /* ===================================
    2
 =================================== */
-
-.case--study-about-row .cs-subhead {
-    font-size: 22px;
-    letter-spacing: 0.2px;
-}
-
-.case--study-webscreen-content {
-    max-width: 1300px;
-    margin: 30px auto 0;
-}
-
-.case--study-webscreen-quote-wrap {
-    display: flex;
-    align-items: flex-start;
-    gap: 18px;
-    margin-bottom: 40px;
-}
-
-.case--study-webscreen-quote-icon {
-    flex-shrink: 0;
-    margin-top: -10px;
-}
-
-.case--study-webscreen-quote-icon svg {
-    width: 45px;
-    height: 45px;
-}
-
-.case--study-about-quote-text {
-    margin: 0;
-    font-size: 50px;
-    line-height: 1.35;
-    font-weight: 400;
-    color: #9a9a9a;
-    max-width: 1080px;
-    letter-spacing: -0.02em;
-}
-
-.case--study-about-quote-text .font-we-bl,
-.case--study-about-quote-text .black_text {
-    color: #000;
-    font-weight: 700;
-}
-
-.case--study-webscreen-testimonial {
-    display: flex;
-    align-items: center;
-    /* margin-left: 67px; */
-}
-
-.case--study-webscreen-avatar {
-    width: 70px;
-    height: 70px;
-    border-radius: 50%;
-    object-fit: cover;
-    margin-right: 16px;
-}
-
-.case--study-webscreen-testimonial-name {
-    font-size: 26px;
-    font-weight: 600;
-    color: #000;
-    line-height: 1.2;
-}
-
-.case--study-webscreen-testimonial-role {
-    font-size: 18px;
-    color: #8a8a8a;
-}
-
-.case--study-about-psi-row {
-    /* border-top: 1px solid #e8e8e8; */
-    margin-top: 80px;
-    margin-bottom: 80px;
-}
-
-.case--study-about-psi-head {
-    margin-bottom: 10px;
-}
-
-.case--study-about-psi-num {
-    width: 40px;
-    height: 40px;
-    border-radius: 50%;
-    font-size: 18px;
-    font-weight: 700;
-    line-height: 1;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-right: 10px;
-}
-
-.case--study-about-psi-title {
-    font-size: 28px;
-}
-
-.case--study-about-psi-text {
-    font-size: 20px;
-    line-height: 1.6;
-    color: #9a9a9a;
-    margin: 0;
-    padding-right: 12px;
-}
-
-
-/* ===== Images ===== */
-
-.case--study-about-img-row {
-    margin-bottom: 30px;
-}
-
-.case--study-about-img-hero,
-.case--study-about-img-split {
-    border-radius: 60px;
-    overflow: hidden;
-}
-
-.case--study-about-img-hero img,
-.case--study-about-img-split img {
-    width: 100%;
-    height: 100%;
-    display: block;
-    object-fit: cover;
-}
-
-
-/* ===================================
+            
+            .case--study-about-row .cs-subhead {
+                font-size: 22px;
+                letter-spacing: 0.2px;
+            }
+            
+            .case--study-webscreen-content {
+                max-width: 1300px;
+                margin: 30px auto 0;
+            }
+            
+            .case--study-webscreen-quote-wrap {
+                display: flex;
+                align-items: flex-start;
+                gap: 18px;
+                margin-bottom: 40px;
+            }
+            
+            .case--study-webscreen-quote-icon {
+                flex-shrink: 0;
+                margin-top: -10px;
+            }
+            
+            .case--study-webscreen-quote-icon svg {
+                width: 45px;
+                height: 45px;
+            }
+            
+            .case--study-about-quote-text {
+                margin: 0;
+                font-size: 50px;
+                line-height: 1.35;
+                font-weight: 400;
+                color: #9a9a9a;
+                max-width: 1080px;
+                letter-spacing: -0.02em;
+            }
+            
+            .case--study-about-quote-text .font-we-bl,
+            .case--study-about-quote-text .black_text {
+                color: #000;
+                font-weight: 700;
+            }
+            
+            .case--study-webscreen-testimonial {
+                display: flex;
+                align-items: center;
+                /* margin-left: 67px; */
+            }
+            
+            .case--study-webscreen-avatar {
+                width: 70px;
+                height: 70px;
+                border-radius: 50%;
+                object-fit: cover;
+                margin-right: 16px;
+            }
+            
+            .case--study-webscreen-testimonial-name {
+                font-size: 26px;
+                font-weight: 600;
+                color: #000;
+                line-height: 1.2;
+            }
+            
+            .case--study-webscreen-testimonial-role {
+                font-size: 18px;
+                color: #8a8a8a;
+            }
+            
+            .case--study-about-psi-row {
+                /* border-top: 1px solid #e8e8e8; */
+                margin-top: 80px;
+                margin-bottom: 80px;
+            }
+            
+            .case--study-about-psi-head {
+                margin-bottom: 10px;
+            }
+            
+            .case--study-about-psi-num {
+                width: 40px;
+                height: 40px;
+                border-radius: 50%;
+                font-size: 18px;
+                font-weight: 700;
+                line-height: 1;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                margin-right: 10px;
+            }
+            
+            .case--study-about-psi-title {
+                font-size: 28px;
+            }
+            
+            .case--study-about-psi-text {
+                font-size: 20px;
+                line-height: 1.6;
+                color: #9a9a9a;
+                margin: 0;
+                padding-right: 12px;
+            }
+            /* ===== Images ===== */
+            
+            .case--study-about-img-row {
+                margin-bottom: 30px;
+            }
+            
+            .case--study-about-img-hero,
+            .case--study-about-img-split {
+                border-radius: 60px;
+                overflow: hidden;
+            }
+            
+            .case--study-about-img-hero img,
+            .case--study-about-img-split img {
+                width: 100%;
+                height: 100%;
+                display: block;
+                object-fit: cover;
+            }
+            /* ===================================
    3
 =================================== */
-
-.case--study-brand-heading {
-    font-size: clamp(28px, 3.1vw, 48px);
-    font-weight: 400;
-    color: #808080;
-    margin: 0;
-}
-
-.case--study-brand-heading .fw-bold {
-    font-weight: 700;
-}
-
-.case--study-brand-desc {
-    font-size: 18px;
-    line-height: 1.7;
-    color: #9a9a9a;
-    max-width: 550px;
-    margin-left: auto;
-}
-
-.case--study-row-txtvv1 {
-    margin-bottom: 80px;
-}
-
-
-/* ===== Logo anatomy ===== */
-
-.case--study-logo-anatomy {
-    width: 100%;
-    height: auto;
-    margin-right: auto;
-    margin-left: auto;
-    margin-bottom: 60px;
-    max-width: 85%;
-}
-
-.case--study-logo-anatomy .main-img {
-    max-width: 100%;
-    height: auto;
-    display: block;
-}
-
-.case--study-phone-mockup-box {
-    width: 100%;
-    height: 100%;
-    display: flex;
-}
-
-.case--study-phone-mockup-box .fiture-img {
-    width: 100%;
-    height: 100%;
-    display: block;
-}
-
-
-/* ===================================
+            
+            .case--study-brand-heading {
+                font-size: clamp(28px, 3.1vw, 48px);
+                font-weight: 400;
+                color: #808080;
+                margin: 0;
+            }
+            
+            .case--study-brand-heading .fw-bold {
+                font-weight: 700;
+            }
+            
+            .case--study-brand-desc {
+                font-size: 18px;
+                line-height: 1.7;
+                color: #9a9a9a;
+                max-width: 550px;
+                margin-left: auto;
+            }
+            
+            .case--study-row-txtvv1 {
+                margin-bottom: 80px;
+            }
+            /* ===== Logo anatomy ===== */
+            
+            .case--study-logo-anatomy {
+                width: 100%;
+                height: auto;
+                margin-right: auto;
+                margin-left: auto;
+                margin-bottom: 60px;
+                max-width: 85%;
+            }
+            
+            .case--study-logo-anatomy .main-img {
+                max-width: 100%;
+                height: auto;
+                display: block;
+            }
+            
+            .case--study-phone-mockup-box {
+                width: 100%;
+                height: 100%;
+                display: flex;
+            }
+            
+            .case--study-phone-mockup-box .fiture-img {
+                width: 100%;
+                height: 100%;
+                display: block;
+            }
+            /* ===================================
    4
 =================================== */
-
-.sg-top-wrap {
-    margin-bottom: 20px;
-    border-bottom: 1.5px dashed;
-    border-color: #F4A896;
-}
-
-.sg-section-title {
-    display: inline-block;
-    position: relative;
-    padding-bottom: 12px;
-}
-
-.sg-section-title {
-    font-size: clamp(14px, 2.8vw, 32px);
-    font-weight: 700;
-    margin-bottom: 14px;
-    margin-top: 4px;
-}
-
-.sg-palette {
-    display: grid;
-    grid-template-columns: repeat(6, 1fr);
-    gap: 8px;
-    margin-bottom: 32px;
-}
-
-.sg-swatch-box {
-    width: 100%;
-    max-height: 60px;
-    aspect-ratio: 1/ 0.4;
-    border-radius: 12px;
-    margin-bottom: 6px;
-}
-
-.sg-swatch-name {
-    font-size: clamp(12px, 1.0vw, 18px);
-    font-weight: 600;
-    color: #444;
-    margin-bottom: 2px;
-    white-space: nowrap;
-}
-
-.sg-swatch-hex {
-    font-size: clamp(11px, 1.0vw, 16px);
-    color: #999;
-    white-space: nowrap;
-}
-
-
-/* ===================================
+            
+            .sg-top-wrap {
+                margin-bottom: 20px;
+                border-bottom: 1.5px dashed;
+                border-color: #F4A896;
+            }
+            
+            .sg-section-title {
+                display: inline-block;
+                position: relative;
+                padding-bottom: 12px;
+            }
+            
+            .sg-section-title {
+                font-size: clamp(14px, 2.8vw, 32px);
+                font-weight: 700;
+                margin-bottom: 14px;
+                margin-top: 4px;
+            }
+            
+            .sg-palette {
+                display: grid;
+                grid-template-columns: repeat(6, 1fr);
+                gap: 8px;
+                margin-bottom: 32px;
+            }
+            
+            .sg-swatch-box {
+                width: 100%;
+                max-height: 60px;
+                aspect-ratio: 1/ 0.4;
+                border-radius: 12px;
+                margin-bottom: 6px;
+            }
+            
+            .sg-swatch-name {
+                font-size: clamp(12px, 1.0vw, 18px);
+                font-weight: 600;
+                color: #444;
+                margin-bottom: 2px;
+                white-space: nowrap;
+            }
+            
+            .sg-swatch-hex {
+                font-size: clamp(11px, 1.0vw, 16px);
+                color: #999;
+                white-space: nowrap;
+            }
+            /* ===================================
    6
 =================================== */
-
-.case--study-webscreen-quote-textvv1 {
-    margin: 0;
-    font-size: 40px;
-    line-height: 1.4;
-    font-weight: 400;
-    color: #9a9a9a;
-    max-width: 1287px;
-    letter-spacing: 0.5px;
-}
-
-
-/* ===================================
+            
+            .case--study-webscreen-quote-textvv1 {
+                margin: 0;
+                font-size: 40px;
+                line-height: 1.4;
+                font-weight: 400;
+                color: #9a9a9a;
+                max-width: 1287px;
+                letter-spacing: 0.5px;
+            }
+            /* ===================================
    8
 =================================== */
-
-.case--study-logo-com-main .main-img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-}
-
-
-/* ===================================
+            
+            .case--study-logo-com-main .main-img {
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+            }
+            /* ===================================
    9
 =================================== */
-
-.case--study-features-main .case--study-logo-com-main {
-    /* padding: 15px 0px; */
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    max-width: 100%;
-    max-height: 768px;
-    height: 100%;
-}
-
-.case--study-features-main .case--study-logo-com-main .main-img {
-    height: auto;
-    width: auto;
-    max-width: 100%;
-    max-height: 100%;
-}
-
-
-/* Top fade */
-
-.application-vv1::before {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    z-index: 1;
-    background: linear-gradient(to bottom, rgba(255, 255, 255, 0.95) 0%, rgba(255, 255, 255, 0) 100%);
-}
-
-
-/* Bottom fade */
-
-.application-vv1::after {
-    content: "";
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    height: 50%;
-    z-index: 1;
-    background: linear-gradient(to top, rgba(255, 255, 255, 0.95) 0%, rgba(255, 255, 255, 0) 100%);
-}
-
-
-/* Main phone */
-
-.phn-modal-img {
-    position: relative;
-    z-index: 5;
-    width: 100%;
-    max-width: 320px;
-    height: auto;
-    display: block;
-    filter: drop-shadow(0 8px 25px rgba(0, 0, 0, 0.2));
-}
-
-
-/* ===================================
+            
+            .case--study-features-main .case--study-logo-com-main {
+                /* padding: 15px 0px; */
+                width: 100%;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                max-width: 100%;
+                max-height: 768px;
+                height: 100%;
+            }
+            
+            .case--study-features-main .case--study-logo-com-main .main-img {
+                height: auto;
+                width: auto;
+                max-width: 100%;
+                max-height: 100%;
+            }
+            /* Top fade */
+            
+            .application-vv1::before {
+                content: "";
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 100%;
+                z-index: 1;
+                background: linear-gradient(to bottom, rgba(255, 255, 255, 0.95) 0%, rgba(255, 255, 255, 0) 100%);
+            }
+            /* Bottom fade */
+            
+            .application-vv1::after {
+                content: "";
+                position: absolute;
+                bottom: 0;
+                left: 0;
+                width: 100%;
+                height: 50%;
+                z-index: 1;
+                background: linear-gradient(to top, rgba(255, 255, 255, 0.95) 0%, rgba(255, 255, 255, 0) 100%);
+            }
+            /* Main phone */
+            
+            .phn-modal-img {
+                position: relative;
+                z-index: 5;
+                width: 100%;
+                max-width: 320px;
+                height: auto;
+                display: block;
+                filter: drop-shadow(0 8px 25px rgba(0, 0, 0, 0.2));
+            }
+            /* ===================================
    11
 =================================== */
-
-.device-scroll-wrap {
-    width: 100%;
-    height: 700px;
-    overflow: hidden;
-    margin: auto;
-    position: relative;
-}
-
-.tab-frame-image {
-    width: 100%;
-    height: 100%;
-    display: block;
-    position: relative;
-    z-index: 2;
-}
-
-.device-screen-viewport {
-    position: absolute;
-    inset: 0;
-    z-index: 1;
-    overflow: hidden;
-    border-radius: 30px;
-    -webkit-border-radius: 30px;
-    -moz-border-radius: 30px;
-    -ms-border-radius: 30px;
-    -o-border-radius: 30px;
-}
-
-.scroll-bg-image {
-    width: 100%;
-    height: 100%;
-    animation: scrollImg 50s linear infinite alternate;
-    -webkit-animation: scrollImg 50s linear infinite alternate;
-    border-radius: 30px;
-    -webkit-border-radius: 30px;
-    -moz-border-radius: 30px;
-    -ms-border-radius: 30px;
-    -o-border-radius: 30px;
-}
-
-.device-tablet .scroll-bg-image {
-    background: url('../images/nanylane-case-img/tab-bg-scr.png') top center / cover no-repeat;
-}
-
-.device-phone .scroll-bg-image {
-    border-radius: 40px;
-    background: url('../images/nanylane-case-img/phn-bg-scr.png') top center / cover no-repeat;
-    -webkit-border-radius: 40px;
-    -moz-border-radius: 40px;
-    -ms-border-radius: 40px;
-    -o-border-radius: 40px;
-}
-
-
-/* Pause animation when hovering the parent */
-
-.device-scroll-wrap:hover .scroll-bg-image {
-    animation-play-state: paused;
-}
-
-@keyframes scrollImg {
-    from {
-        background-position: center top;
-    }
-
-    to {
-        background-position: center bottom;
-    }
-}
-
-.device-scroll-img {
-    width: 100%;
-    height: auto;
-    display: block;
-}
-
-.device-scroll-wrap.device-phone {
-    height: 600px;
-    padding: 2px;
-    width: auto;
-    margin: 0 0 0 40px;
-}
-
-.device-phone .device-screen-viewport {
-    border-radius: 40px;
-    -webkit-border-radius: 40px;
-    -moz-border-radius: 40px;
-    -ms-border-radius: 40px;
-    -o-border-radius: 40px;
-    padding: 6px 4px;
-}
-
-
-/* ===================================
+            
+            .device-scroll-wrap {
+                width: 100%;
+                height: 700px;
+                overflow: hidden;
+                margin: auto;
+                position: relative;
+            }
+            
+            .tab-frame-image {
+                width: 100%;
+                height: 100%;
+                display: block;
+                position: relative;
+                z-index: 2;
+            }
+            
+            .device-screen-viewport {
+                position: absolute;
+                inset: 0;
+                z-index: 1;
+                overflow: hidden;
+                border-radius: 30px;
+                -webkit-border-radius: 30px;
+                -moz-border-radius: 30px;
+                -ms-border-radius: 30px;
+                -o-border-radius: 30px;
+            }
+            
+            .scroll-bg-image {
+                width: 100%;
+                height: 100%;
+                animation: scrollImg 50s linear infinite alternate;
+                -webkit-animation: scrollImg 50s linear infinite alternate;
+                border-radius: 30px;
+                -webkit-border-radius: 30px;
+                -moz-border-radius: 30px;
+                -ms-border-radius: 30px;
+                -o-border-radius: 30px;
+            }
+            
+            .device-tablet .scroll-bg-image {
+                background: url('../images/nanylane-case-img/tab-bg-scr.png') top center / cover no-repeat;
+            }
+            
+            .device-phone .scroll-bg-image {
+                border-radius: 40px;
+                background: url('../images/nanylane-case-img/phn-bg-scr.png') top center / cover no-repeat;
+                -webkit-border-radius: 40px;
+                -moz-border-radius: 40px;
+                -ms-border-radius: 40px;
+                -o-border-radius: 40px;
+            }
+            /* Pause animation when hovering the parent */
+            
+            .device-scroll-wrap:hover .scroll-bg-image {
+                animation-play-state: paused;
+            }
+            
+            @keyframes scrollImg {
+                from {
+                    background-position: center top;
+                }
+                to {
+                    background-position: center bottom;
+                }
+            }
+            
+            .device-scroll-img {
+                width: 100%;
+                height: auto;
+                display: block;
+            }
+            
+            .device-scroll-wrap.device-phone {
+                height: 600px;
+                padding: 2px;
+                width: auto;
+                margin: 0 0 0 40px;
+            }
+            
+            .device-phone .device-screen-viewport {
+                border-radius: 40px;
+                -webkit-border-radius: 40px;
+                -moz-border-radius: 40px;
+                -ms-border-radius: 40px;
+                -o-border-radius: 40px;
+                padding: 6px 4px;
+            }
+            /* ===================================
    12
 =================================== */
-
-.case--study-cta-meta {
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-start;
-    flex-wrap: wrap;
-    gap: 8px;
-    margin-bottom: 40px;
-}
-
-.case--study-cta-project-id {
-    white-space: nowrap;
-}
-
-.case--study-cta-main {
-    background: #0e0e0e;
-    position: relative;
-    overflow: hidden;
-    min-height: 410px;
-}
-
-.case--study-cta-inner {
-    position: relative;
-    z-index: 1;
-    padding: 44px 0 0;
-}
-
-.case--study-cta-row {
-    align-items: flex-end;
-}
-
-.case--study-cta-text-col {
-    padding-bottom: 165px;
-}
-
-.case--study-cta-headline {
-    font-size: clamp(36px, 6vw, 100px);
-    font-weight: 500;
-    line-height: 1.08;
-    color: #ffffff;
-    letter-spacing: -1px;
-}
-
-.case--study-cta-divider {
-    width: 100%;
-    height: 1px;
-    background: rgba(255, 255, 255, 0.12);
-    margin: 40px 0 40px;
-}
-
-.case--study-cta-link-line a:hover {
-    text-decoration: underline;
-}
-
-.case--study-cta-phones {
-    position: relative;
-    width: 100%;
-    /* max-width: 460px; */
-    height: auto;
-    /* margin-left: auto; */
-}
-
-.case--study-cta-phones .main-img {
-    width: 100%;
-    height: 100%;
-}
-
-
-/* ===================================
+            
+            .case--study-cta-meta {
+                display: flex;
+                justify-content: space-between;
+                align-items: flex-start;
+                flex-wrap: wrap;
+                gap: 8px;
+                margin-bottom: 40px;
+            }
+            
+            .case--study-cta-project-id {
+                white-space: nowrap;
+            }
+            
+            .case--study-cta-main {
+                background: #0e0e0e;
+                position: relative;
+                overflow: hidden;
+                min-height: 410px;
+            }
+            
+            .case--study-cta-inner {
+                position: relative;
+                z-index: 1;
+                padding: 44px 0 0;
+            }
+            
+            .case--study-cta-row {
+                align-items: flex-end;
+            }
+            
+            .case--study-cta-text-col {
+                padding-bottom: 165px;
+            }
+            
+            .case--study-cta-headline {
+                font-size: clamp(36px, 6vw, 100px);
+                font-weight: 500;
+                line-height: 1.08;
+                color: #ffffff;
+                letter-spacing: -1px;
+            }
+            
+            .case--study-cta-divider {
+                width: 100%;
+                height: 1px;
+                background: rgba(255, 255, 255, 0.12);
+                margin: 40px 0 40px;
+            }
+            
+            .case--study-cta-link-line a:hover {
+                text-decoration: underline;
+            }
+            
+            .case--study-cta-phones {
+                position: relative;
+                width: 100%;
+                /* max-width: 460px; */
+                height: auto;
+                /* margin-left: auto; */
+            }
+            
+            .case--study-cta-phones .main-img {
+                width: 100%;
+                height: 100%;
+            }
+            /* ===================================
    Brand Identity CSS - MatesInvest
 =================================== */
-
-.grandient-heading {
-    position: relative;
-    display: inline-flex;
-    align-items: center;
-    gap: 10px;
-    padding-left: 10px;
-    background: linear-gradient(90deg, #DCEAFF 19%, rgba(251, 251, 251, 0) 76%);
-}
-
-.grandient-heading::before {
-    content: "";
-    width: 6px;
-    height: 80px;
-    background: #1D61E7;
-    display: block;
-    margin-left: -10px;
-}
-
-.grandient-heading.case--study-brand-heading {
-    color: #000;
-    font-size: clamp(20px, 2.44vw, 40px);
-    font-weight: 600;
-}
-
-.grandient-heading span {
-    display: inline-block;
-    padding: 5px 8px 10px;
-}
-
-.light_gray {
-    color: #808080;
-}
-
-.mi-brand-identity-section .mi-brand-col-right,
-.mi-brand-identity-section .mi-brand-col-left {
-    position: relative;
-    z-index: 2;
-}
-
-.mi-brand-col-right .case--study-brand-desc {
-    max-width: 100%;
-    font-size: 20px;
-}
-
-.mi-brand-identity-section {
-    position: relative;
-}
-
-.mi-brand-identity-section .gradient-bg-left {
-    position: absolute;
-    height: clamp(500px, 79.27vw, 1300px);
-    top: 0;
-    left: 0;
-    z-index: 1;
-}
-
-.mi-brand-identity-section .gradient-bg-right {
-    position: absolute;
-    max-height: clamp(600px, 97.56vw, 1600px);
-    top: 50%;
-    right: 0;
-    z-index: 1;
-    transform: translateY(-50%);
-    -webkit-transform: translateY(-50%);
-    -moz-transform: translateY(-50%);
-    -ms-transform: translateY(-50%);
-    -o-transform: translateY(-50%);
-}
-
-.bi-middle-img-wrap {
-    position: relative;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-top: -16px;
-}
-
-.bi-logo-image {
-    width: clamp(600px, 73.17vw, 1200px);
-}
-
-
-/* ===================================
+            
+            .grandient-heading {
+                position: relative;
+                display: inline-flex;
+                align-items: center;
+                gap: 10px;
+                padding-left: 10px;
+                background: linear-gradient(90deg, #DCEAFF 19%, rgba(251, 251, 251, 0) 76%);
+            }
+            
+            .grandient-heading::before {
+                content: "";
+                width: 6px;
+                height: 80px;
+                background: #1D61E7;
+                display: block;
+                margin-left: -10px;
+            }
+            
+            .grandient-heading.case--study-brand-heading {
+                color: #000;
+                font-size: clamp(20px, 2.44vw, 40px);
+                font-weight: 600;
+            }
+            
+            .grandient-heading span {
+                display: inline-block;
+                padding: 5px 8px 10px;
+            }
+            
+            .light_gray {
+                color: #808080;
+            }
+            
+            .mi-brand-identity-section .mi-brand-col-right,
+            .mi-brand-identity-section .mi-brand-col-left {
+                position: relative;
+                z-index: 2;
+            }
+            
+            .mi-brand-col-right .case--study-brand-desc {
+                max-width: 100%;
+                font-size: 20px;
+            }
+            
+            .mi-brand-identity-section {
+                position: relative;
+            }
+            
+            .mi-brand-identity-section .gradient-bg-left {
+                position: absolute;
+                height: clamp(500px, 79.27vw, 1300px);
+                top: 0;
+                left: 0;
+                z-index: 1;
+            }
+            
+            .mi-brand-identity-section .gradient-bg-right {
+                position: absolute;
+                max-height: clamp(600px, 97.56vw, 1600px);
+                top: 50%;
+                right: 0;
+                z-index: 1;
+                transform: translateY(-50%);
+                -webkit-transform: translateY(-50%);
+                -moz-transform: translateY(-50%);
+                -ms-transform: translateY(-50%);
+                -o-transform: translateY(-50%);
+            }
+            
+            .bi-middle-img-wrap {
+                position: relative;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                margin-top: -16px;
+            }
+            
+            .bi-logo-image {
+                width: clamp(600px, 73.17vw, 1200px);
+            }
+            /* ===================================
    About Project CSS - MatesInvest
 =================================== */
-
-.case--study-page-matesinvests .case--study-banner-secn {
-    background: transparent;
-    min-height: auto;
-    display: block;
-    overflow: hidden;
-    padding-bottom: 0px;
-}
-
-.case--study-page-matesinvests {
-    background: #fbfbfb;
-}
-
-.case--study-nsw-wrap .case-study-manew {
-    background-color: #fff;
-    color: #000;
-}
-
-.matesinvest-hero-sec .case--study-banner-after {
-    left: 0px;
-    right: 0px;
-    border-radius: 0px;
-}
-
-.case--study-challenges-mate-main {
-    padding: 60px 0;
-}
-
-.case--study-challenges-mate-main .case--study-cps-inner {
-    background: #fff;
-    border-radius: 25px;
-    padding: 30px;
-}
-
-.case--study-cps-inner .case-study-c-imgs {
-    width: 60px;
-    height: 60px;
-}
-
-.case--study-challenges-mate-main .case--study-cps-p {
-    font-size: clamp(18px, 2.2vw, 30px);
-    margin-bottom: 16px;
-    margin-top: 8px;
-}
-
-.case--study-challenges-mate-main .case--study-cps-points {
-    margin: 0;
-    padding: 0;
-}
-
-.case--study-challenges-mate-main .case--study-cps-points li {
-    font-size: clamp(14px, 1.6vw, 20px);
-    color: #808080;
-    padding-left: 16px;
-    margin-bottom: 18px;
-    font-weight: 500;
-}
-
-.case--study-challenges-mate-main .case--study-cps-bullet {
-    position: absolute;
-    left: 0;
-    top: 10px;
-    width: 6px;
-    height: 6px;
-    border-radius: 50%;
-    background: #808080;
-}
-
-.case--study-challenges-mate-main .case--study-cps-imgvv1 img {
-    border-radius: 25px;
-}
-
-.case--study-challenges-mate-main .case--study-cps-solutions {
-    margin-bottom: 0;
-}
-
-.case-study-main-center-secvv1 {
-    padding-top: 80px;
-}
-
-.case-study-main-center-secvv1 .cs-about-desc {
-    font-size: clamp(16px, 2.0vw, 24px);
-    color: #555;
-    line-height: 1.8;
-    margin-bottom: 30px;
-    max-width: 1050px;
-}
-
-.case-study-main-center-secvv1 .cs-about-gurus {
-    display: flex;
-    align-items: center;
-    gap: 15px;
-    margin-bottom: 50px;
-}
-
-.cs-about-gurus .cs-gurus-avatar {
-    width: 74px;
-    height: 74px;
-    border-radius: 50%;
-    object-fit: cover;
-}
-
-.cs-gurus-info {
-    display: flex;
-    flex-direction: column;
-}
-
-.cs-gurus-info .cs-gurus-name {
-    font-size: 26px;
-    font-weight: 700;
-    color: #000;
-    line-height: 1.3;
-}
-
-.cs-.cs-gurus-info .cs-gurus-location {
-    font-size: 20px;
-    color: #808080;
-    font-weight: 500;
-}
-
-.case-study-main-center-secvv1 .cs-about-meta-row {
-    /* display: flex;
+            
+            .case--study-page-matesinvests .case--study-banner-secn {
+                background: transparent;
+                min-height: auto;
+                display: block;
+                overflow: hidden;
+                padding-bottom: 0px;
+            }
+            
+            .case--study-page-matesinvests {
+                background: #fbfbfb;
+            }
+            
+            .case--study-nsw-wrap .case-study-manew {
+                background-color: #fff;
+                color: #000;
+            }
+            
+            .matesinvest-hero-sec .case--study-banner-after {
+                left: 0px;
+                right: 0px;
+                border-radius: 0px;
+            }
+            
+            .case--study-challenges-mate-main {
+                padding: 60px 0;
+            }
+            
+            .case--study-challenges-mate-main .case--study-cps-inner {
+                background: #fff;
+                border-radius: 25px;
+                padding: 30px;
+            }
+            
+            .case--study-cps-inner .case-study-c-imgs {
+                width: 60px;
+                height: 60px;
+            }
+            
+            .case--study-challenges-mate-main .case--study-cps-p {
+                font-size: clamp(18px, 2.2vw, 30px);
+                margin-bottom: 16px;
+                margin-top: 8px;
+            }
+            
+            .case--study-challenges-mate-main .case--study-cps-points {
+                margin: 0;
+                padding: 0;
+            }
+            
+            .case--study-challenges-mate-main .case--study-cps-points li {
+                font-size: clamp(14px, 1.6vw, 20px);
+                color: #808080;
+                padding-left: 16px;
+                margin-bottom: 18px;
+                font-weight: 500;
+            }
+            
+            .case--study-challenges-mate-main .case--study-cps-bullet {
+                position: absolute;
+                left: 0;
+                top: 10px;
+                width: 6px;
+                height: 6px;
+                border-radius: 50%;
+                background: #808080;
+            }
+            
+            .case--study-challenges-mate-main .case--study-cps-imgvv1 img {
+                border-radius: 25px;
+            }
+            
+            .case--study-challenges-mate-main .case--study-cps-solutions {
+                margin-bottom: 0;
+            }
+            
+            .case-study-main-center-secvv1 {
+                padding-top: 80px;
+            }
+            
+            .case-study-main-center-secvv1 .cs-about-desc {
+                font-size: clamp(16px, 2.0vw, 24px);
+                color: #555;
+                line-height: 1.8;
+                margin-bottom: 30px;
+                max-width: 1050px;
+            }
+            
+            .case-study-main-center-secvv1 .cs-about-gurus {
+                display: flex;
+                align-items: center;
+                gap: 15px;
+                margin-bottom: 50px;
+            }
+            
+            .cs-about-gurus .cs-gurus-avatar {
+                width: 74px;
+                height: 74px;
+                border-radius: 50%;
+                object-fit: cover;
+            }
+            
+            .cs-gurus-info {
+                display: flex;
+                flex-direction: column;
+            }
+            
+            .cs-gurus-info .cs-gurus-name {
+                font-size: 26px;
+                font-weight: 700;
+                color: #000;
+                line-height: 1.3;
+            }
+            
+            .cs-.cs-gurus-info .cs-gurus-location {
+                font-size: 20px;
+                color: #808080;
+                font-weight: 500;
+            }
+            
+            .case-study-main-center-secvv1 .cs-about-meta-row {
+                /* display: flex;
     flex-wrap: wrap;
     gap: 94px; */
-    display: grid;
-    gap: 30px;
-    grid-template-columns: repeat(5, 1fr);
-}
-
-.cs-about-meta-item {
-    display: flex;
-    align-items: center;
-    gap: 10px;
-    /* padding: 0 30px; */
-    position: relative;
-    padding-left: 30px;
-}
-
-.cs-about-meta-item:first-child {
-    padding-left: 0;
-}
-
-.cs-about-meta-item:last-child {
-    padding-right: 0;
-}
-
-
-/* Vertical divider line */
-
-.cs-about-meta-item::before {
-    content: '';
-    position: absolute;
-    left: 0;
-    top: 50%;
-    transform: translateY(-50%);
-    width: 1px;
-    height: 40px;
-    background: #D8DADC;
-}
-
-.cs-about-meta-item:first-child::before {
-    display: none;
-}
-
-.cs-about-meta-row .cs-about-meta-item img {
-    width: 64px;
-    height: 64px;
-    object-fit: contain;
-    flex-shrink: 0;
-}
-
-.cs-meta-info {
-    display: flex;
-    flex-direction: column;
-}
-
-.cs-meta-info .cs-meta-label {
-    font-size: clamp(16px, 2.0vw, 24px);
-    color: #000;
-    font-weight: 600;
-    line-height: 1.3;
-}
-
-.cs-meta-info .cs-meta-value {
-    font-size: 18px;
-    font-weight: 500;
-    color: #808080;
-    line-height: 1.4;
-}
-
-.case--study-about-mate-main .case-study-about-bottom-mainvv1 {
-    padding: 80px 60px 100px;
-}
-
-.case-study-about-bottom-mainvv1 .cs-about-banner {
-    width: 100%;
-    overflow: hidden;
-    border-radius: 70px;
-}
-
-.cs-about-banner-img {
-    width: 100%;
-    height: auto;
-    display: block;
-    object-fit: cover;
-}
-
-.case--study-main-bg-imgvv1.about-bg-img {
-    position: absolute;
-    top: 0;
-    right: 0;
-    max-width: 36%;
-    width: 100%;
-}
-
-
-/* ===================================
+                display: grid;
+                gap: 30px;
+                grid-template-columns: repeat(5, 1fr);
+            }
+            
+            .cs-about-meta-item {
+                display: flex;
+                align-items: center;
+                gap: 10px;
+                /* padding: 0 30px; */
+                position: relative;
+                padding-left: 30px;
+            }
+            
+            .cs-about-meta-item:first-child {
+                padding-left: 0;
+            }
+            
+            .cs-about-meta-item:last-child {
+                padding-right: 0;
+            }
+            /* Vertical divider line */
+            
+            .cs-about-meta-item::before {
+                content: '';
+                position: absolute;
+                left: 0;
+                top: 50%;
+                transform: translateY(-50%);
+                width: 1px;
+                height: 40px;
+                background: #D8DADC;
+            }
+            
+            .cs-about-meta-item:first-child::before {
+                display: none;
+            }
+            
+            .cs-about-meta-row .cs-about-meta-item img {
+                width: 64px;
+                height: 64px;
+                object-fit: contain;
+                flex-shrink: 0;
+            }
+            
+            .cs-meta-info {
+                display: flex;
+                flex-direction: column;
+            }
+            
+            .cs-meta-info .cs-meta-label {
+                font-size: clamp(16px, 2.0vw, 24px);
+                color: #000;
+                font-weight: 600;
+                line-height: 1.3;
+            }
+            
+            .cs-meta-info .cs-meta-value {
+                font-size: 18px;
+                font-weight: 500;
+                color: #808080;
+                line-height: 1.4;
+            }
+            
+            .case--study-about-mate-main .case-study-about-bottom-mainvv1 {
+                padding: 80px 60px 100px;
+            }
+            
+            .case-study-about-bottom-mainvv1 .cs-about-banner {
+                width: 100%;
+                overflow: hidden;
+                border-radius: 70px;
+            }
+            
+            .cs-about-banner-img {
+                width: 100%;
+                height: auto;
+                display: block;
+                object-fit: cover;
+            }
+            
+            .case--study-main-bg-imgvv1.about-bg-img {
+                position: absolute;
+                top: 0;
+                right: 0;
+                max-width: 36%;
+                width: 100%;
+            }
+            /* ===================================
+   Typography & Colors CSS - MatesInvest
+=================================== */
+            
+            .cs-color-card {
+                border-radius: 22px;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                text-align: center;
+                padding: 59% 5%;
+            }
+            
+            .cs-color-label {
+                font-size: 22px;
+                margin-bottom: 8px;
+                opacity: 0.85;
+            }
+            
+            .cs-color-value {
+                font-size: 46px;
+                font-weight: 700;
+                letter-spacing: 0.5px;
+            }
+            /* ── Background card ── */
+            
+            .col-left-col .col-left-top {
+                padding: 52% 5%;
+            }
+            
+            .col-left-top .cs-color-label,
+            .col-left-top .cs-color-value {
+                color: #6C7278;
+            }
+            /* ── Placeholder card ── */
+            
+            .col-left-col .col-left-bottom {
+                padding: 14.7% 5%;
+            }
+            
+            .col-left-bottom .cs-color-label,
+            .col-left-bottom .cs-color-value {
+                color: #1A1C1E;
+            }
+            /* ── Primary Color (big blue square with grid pattern) ── */
+            
+            .col-center-col .col-center-main {
+                background-image: linear-gradient(rgba(255, 255, 255, 0.08) 1px, transparent 1px), linear-gradient(90deg, rgba(255, 255, 255, 0.08) 1px, transparent 1px);
+                background-size: 135px 135px;
+                color: #fff;
+                padding: 36.3% 10%;
+                height: 100%;
+            }
+            
+            .col-center-main .cs-color-label,
+            .col-center-main .cs-color-value {
+                color: #fff;
+            }
+            
+            .col-center-main .cs-color-value {
+                font-size: 46px;
+            }
+            
+            .col-center-main .cs-color-label {
+                font-size: 22px;
+            }
+            /* ── Primary Text (dark/black card) ── */
+            
+            .col-right-col .col-right-top {
+                padding: 10% 5%;
+            }
+            
+            .col-right-top .cs-color-label,
+            .col-right-top .cs-color-value {
+                color: #fff;
+            }
+            
+            .col-right-top .cs-color-label {
+                font-size: 22px;
+            }
+            
+            .col-right-top .cs-color-value {
+                font-size: 46px;
+            }
+            /* ── Sub Text card ── */
+            
+            .col-right-col .col-right-bottom-left {
+                padding: 60.4% 5%;
+            }
+            
+            .col-right-bottom-left .cs-color-label,
+            .col-right-bottom-left .cs-color-value {
+                color: #fff;
+            }
+            /* ── Primary BG card ── */
+            
+            .col-right-col .col-right-bottom-right {
+                padding: 60.4% 5%;
+            }
+            
+            .col-right-bottom-right .cs-color-label,
+            .col-right-bottom-right .cs-color-value {
+                color: #fff;
+            }
+            /* ===================================
    responsive css start
 =================================== */
-
-@media (max-width: 1699px) {
-
-    /* Brand Identity - MatInvest */
-    .mi-brand-col-right .case--study-brand-desc {
-        font-size: 16px;
-    }
-
-    /* end */
-    /* Auto scrolling image sec */
-    .device-scroll-wrap {
-        height: 600px;
-    }
-
-    .device-scroll-wrap.device-phone {
-        height: 550px;
-    }
-
-    .case--study-cta-text-col {
-        padding-bottom: 120px;
-    }
-
-    .case-study-main-center-secvv1 .cs-about-meta-row {
-        gap: 30px;
-    }
-}
-
-@media (max-width: 1599px) {
-    .cs-about-meta-row .cs-about-meta-item img {
-        width: 54px;
-        height: 54px;
-    }
-
-    /* Brand Identity - MatInvest */
-    .mi-brand-col-right .case--study-brand-desc {
-        font-size: 14px;
-    }
-
-    .grandient-heading::before {
-        width: 5px;
-        height: 70px;
-    }
-
-    /* end */
-    .case--study-inner-pdvv1 {
-        padding-top: 50px;
-        padding-bottom: 50px;
-    }
-
-    .case-study-main-sec .case--study-banner-inner {
-        height: 730px;
-    }
-
-    ul.case--study-type-innern li .case--study-cat.case-bg-wt {
-        font-size: 16px;
-    }
-
-    .case--study-cta-text-col {
-        padding-bottom: 100px;
-    }
-
-    .case-study-main-center-secvv1 .cs-about-meta-row {
-        gap: 10px;
-    }
-}
-
-@media (max-width: 1499px) {
-    ul.case--study-type-innern li .case--study-cat.case-bg-wt {
-        font-size: 14px;
-    }
-
-    /* Auto scrolling image sec */
-    .device-scroll-wrap {
-        height: 550px;
-    }
-
-    .device-scroll-wrap.device-phone {
-        height: 500px;
-    }
-
-    /* end */
-    .case--study-about-quote-text {
-        font-size: 38px;
-    }
-
-    .case--study-webscreen-quote-textvv1 {
-        font-size: 32px;
-    }
-
-    .case--study-webscreen-quote-icon {
-        margin-top: -8px;
-    }
-
-    .case--study-webscreen-avatar {
-        width: 50px;
-        height: 50px;
-        margin-right: 12px;
-    }
-
-    .case--study-webscreen-testimonial-name {
-        font-size: 22px;
-    }
-
-    .case--study-webscreen-testimonial-role {
-        font-size: 14px;
-    }
-
-    .case--study-about-psi-num {
-        width: 30px;
-        height: 30px;
-        font-size: 14px;
-        margin-right: 8px;
-    }
-
-    .case--study-about-psi-title {
-        font-size: 22px;
-    }
-
-    .case--study-about-psi-text {
-        font-size: 16px;
-    }
-
-    .case--study-about-img-hero,
-    .case--study-about-img-split {
-        border-radius: 30px;
-    }
-
-    /* .case--study-brand-heading {
+            
+            @media (max-width: 1699px) {
+                /* Brand Identity - MatInvest */
+                .mi-brand-col-right .case--study-brand-desc {
+                    font-size: 16px;
+                }
+                /* end */
+                /* Auto scrolling image sec */
+                .device-scroll-wrap {
+                    height: 600px;
+                }
+                .device-scroll-wrap.device-phone {
+                    height: 550px;
+                }
+                .case--study-cta-text-col {
+                    padding-bottom: 120px;
+                }
+                .case-study-main-center-secvv1 .cs-about-meta-row {
+                    gap: 30px;
+                }
+            }
+            
+            @media (max-width: 1599px) {
+                .cs-about-meta-row .cs-about-meta-item img {
+                    width: 54px;
+                    height: 54px;
+                }
+                /* Brand Identity - MatInvest */
+                .mi-brand-col-right .case--study-brand-desc {
+                    font-size: 14px;
+                }
+                .grandient-heading::before {
+                    width: 5px;
+                    height: 70px;
+                }
+                /* end */
+                .case--study-inner-pdvv1 {
+                    padding-top: 50px;
+                    padding-bottom: 50px;
+                }
+                .case-study-main-sec .case--study-banner-inner {
+                    height: 730px;
+                }
+                ul.case--study-type-innern li .case--study-cat.case-bg-wt {
+                    font-size: 16px;
+                }
+                .case--study-cta-text-col {
+                    padding-bottom: 100px;
+                }
+                .case-study-main-center-secvv1 .cs-about-meta-row {
+                    gap: 10px;
+                }
+            }
+            
+            @media (max-width: 1499px) {
+                ul.case--study-type-innern li .case--study-cat.case-bg-wt {
+                    font-size: 14px;
+                }
+                /* Auto scrolling image sec */
+                .device-scroll-wrap {
+                    height: 550px;
+                }
+                .device-scroll-wrap.device-phone {
+                    height: 500px;
+                }
+                /* end */
+                .case--study-about-quote-text {
+                    font-size: 38px;
+                }
+                .case--study-webscreen-quote-textvv1 {
+                    font-size: 32px;
+                }
+                .case--study-webscreen-quote-icon {
+                    margin-top: -8px;
+                }
+                .case--study-webscreen-avatar {
+                    width: 50px;
+                    height: 50px;
+                    margin-right: 12px;
+                }
+                .case--study-webscreen-testimonial-name {
+                    font-size: 22px;
+                }
+                .case--study-webscreen-testimonial-role {
+                    font-size: 14px;
+                }
+                .case--study-about-psi-num {
+                    width: 30px;
+                    height: 30px;
+                    font-size: 14px;
+                    margin-right: 8px;
+                }
+                .case--study-about-psi-title {
+                    font-size: 22px;
+                }
+                .case--study-about-psi-text {
+                    font-size: 16px;
+                }
+                .case--study-about-img-hero,
+                .case--study-about-img-split {
+                    border-radius: 30px;
+                }
+                /* .case--study-brand-heading {
         font-size: 36px;
     } */
-    .case--study-brand-desc {
-        font-size: 14px;
-    }
-
-    .case--study-cta-text-col {
-        padding-bottom: 85px;
-    }
-
-    .banner-center p {
-        max-width: 600px;
-        margin: 0 auto;
-        font-size: clamp(14px, 1.3vw, 22px);
-        line-height: 1.5;
-        color: #fff;
-    }
-
-    .case-study-main-center-secvv1 .cs-about-gurus {
-        margin-bottom: 30px;
-    }
-
-    .cs-about-meta-item {
-        padding-left: 16px;
-    }
-
-    .cs-meta-info .cs-meta-label {
-        font-size: 20px;
-    }
-
-    .cs-meta-info .cs-meta-value {
-        font-size: 16px;
-    }
-}
-
-@media (max-width: 1399px) {
-
-    /* Brand Identity - MatInvest */
-    .grandient-heading {
-        gap: 4px;
-    }
-
-    .grandient-heading::before {
-        width: 4px;
-        height: 60px;
-    }
-
-    /* end */
-    .case--study-webscreen-quote-icon svg {
-        width: 30px;
-        height: 30px;
-    }
-
-    /* Auto scrolling image sec */
-    .device-scroll-wrap {
-        height: 500px;
-    }
-
-    .device-scroll-wrap.device-phone {
-        height: 450px;
-    }
-
-    /* end */
-    .case--study-cta-text-col {
-        padding-bottom: 65px;
-    }
-
-    .case-study-about-bottom-mainvv1 .cs-about-banner {
-        border-radius: 55px;
-    }
-
-    .case-study-main-center-secvv1 .cs-about-meta-row {
-        gap: 20px 10px;
-        grid-template-columns: repeat(3, 1fr);
-    }
-
-    .cs-about-meta-row .cs-about-meta-item:nth-child(4) {
-        padding-left: 0;
-    }
-
-    .cs-about-meta-row .cs-about-meta-item:nth-child(4)::before {
-        display: none;
-    }
-}
-
-@media (max-width: 1200px) {
-    .case-study-main-sec .case--study-banner-inner {
-        height: 700px;
-    }
-
-    /* Auto scrolling image sec */
-    .device-scroll-wrap.device-phone {
-        margin: 0 0 0 auto;
-    }
-
-    .device-phone .scroll-bg-image {
-        border-radius: 24px;
-        -webkit-border-radius: 24px;
-        -moz-border-radius: 24px;
-        -ms-border-radius: 24px;
-        -o-border-radius: 24px;
-    }
-
-    /* end */
-    .cs-gurus-info .cs-gurus-name {
-        font-size: 22px;
-    }
-
-    .cs-about-meta-item {
-        padding: 0 12px;
-    }
-}
-
-@media (max-width: 1199px) {
-
-    /* Brand Identity - MatInvest */
-    .grandient-heading span {
-        padding: 5px 8px 8px;
-    }
-
-    .grandient-heading::before {
-        height: 56px;
-    }
-
-    /* end */
-    .case--study-features-main .case--study-logo-com-main {
-        height: auto;
-    }
-
-    .case--study-banner-secn.banner-sec {
-        padding-bottom: 0;
-    }
-
-    /* Auto scrolling image sec */
-    .device-scroll-wrap {
-        height: auto;
-    }
-
-    .device-scroll-wrap.device-phone {
-        height: auto;
-    }
-
-    /* end */
-    .case--study-cps-inner .case-study-c-imgs {
-        width: 50px;
-        height: 50px;
-    }
-
-    .case--study-challenges-mate-main .case--study-cps-inner {
-        padding: 25px;
-        border-radius: 15px;
-    }
-
-    .case--study-challenges-mate-main .case--study-cps-imgvv1 img {
-        border-radius: 15px;
-    }
-
-    .case--study-challenges-mate-main .case--study-cps-points li {
-        padding-left: 14px;
-    }
-
-    .cs-about-meta-row .cs-about-meta-item img {
-        width: 54px;
-        height: 54px;
-    }
-
-    .cs-about-gurus .cs-gurus-avatar {
-        width: 55px;
-        height: 55px;
-    }
-
-    .cs-gurus-info .cs-gurus-name {
-        font-size: 19px;
-    }
-
-    .cs-gurus-info .cs-gurus-location {
-        font-size: 17px;
-    }
-
-    .cs-meta-info .cs-meta-value {
-        font-size: 16px;
-    }
-
-    .case-study-about-bottom-mainvv1 .cs-about-banner {
-        border-radius: 40px;
-    }
-
-    .case--study-about-mate-main .case-study-about-bottom-mainvv1 {
-        padding: 60px 40px 0px;
-    }
-
-    .case-study-main-center-secvv1 {
-        padding-top: 30px;
-    }
-
-    .cs-about-meta-item {
-        padding: 0 15px;
-    }
-
-    .cs-about-meta-row .cs-about-meta-item img {
-        width: 50px;
-        height: 50px;
-    }
-
-    .cs-meta-info .cs-meta-label {
-        font-size: 18px;
-    }
-
-    .cs-meta-info .cs-meta-value {
-        font-size: 15px;
-    }
-}
-
-@media (max-width: 991px) {
-
-    /* Brand Identity - MatInvest */
-    .mi-brand-identity-section .gradient-bg-right {
-        top: 20%;
-        transform: none;
-        -webkit-transform: none;
-        -moz-transform: none;
-        -ms-transform: none;
-        -o-transform: none;
-    }
-
-    /* end */
-    .case--study-webscreen-quote-icon svg {
-        width: 25px;
-        height: 25px;
-    }
-
-    .case--study-about-img-row {
-        margin-bottom: 10px;
-    }
-
-    .case--study-about-img-hero,
-    .case--study-about-img-split {
-        border-radius: 20px;
-        -webkit-border-radius: 20px;
-        -moz-border-radius: 20px;
-        -ms-border-radius: 20px;
-        -o-border-radius: 20px;
-    }
-
-    .banner-center p br {
-        display: none;
-    }
-
-    /* Auto scrolling image sec */
-    .case--study-row-txtvv1 {
-        margin-bottom: 40px;
-    }
-
-    /* end */
-    .sg-palette {
-        margin-bottom: 25px;
-    }
-
-    .case--study-about-row .cs-subhead {
-        font-size: 20px;
-    }
-
-    .case--study-about-quote-text,
-    .case--study-webscreen-quote-textvv1 {
-        font-size: 30px;
-    }
-
-    .case--study-webscreen-testimonial-name {
-        font-size: 18px;
-    }
-
-    .case--study-webscreen-testimonial-role {
-        font-size: 12px;
-    }
-
-    .case--study-about-psi-text {
-        font-size: 14px;
-    }
-
-    .case--study-about-psi-title {
-        font-size: 18px;
-    }
-
-    .case--study-about-psi-num {
-        width: 25px;
-        height: 25px;
-        font-size: 12px;
-        margin-right: 8px;
-    }
-
-    .case--study-brand-desc {
-        margin-left: 0px;
-    }
-
-    /* .case--study-brand-heading {
+                .case--study-brand-desc {
+                    font-size: 14px;
+                }
+                .case--study-cta-text-col {
+                    padding-bottom: 85px;
+                }
+                .banner-center p {
+                    max-width: 600px;
+                    margin: 0 auto;
+                    font-size: clamp(14px, 1.3vw, 22px);
+                    line-height: 1.5;
+                    color: #fff;
+                }
+                .case-study-main-center-secvv1 .cs-about-gurus {
+                    margin-bottom: 30px;
+                }
+                .cs-about-meta-item {
+                    padding-left: 16px;
+                }
+                .cs-meta-info .cs-meta-label {
+                    font-size: 20px;
+                }
+                .cs-meta-info .cs-meta-value {
+                    font-size: 16px;
+                }
+            }
+            
+            @media (max-width: 1399px) {
+                /* Brand Identity - MatInvest */
+                .grandient-heading {
+                    gap: 4px;
+                }
+                .grandient-heading::before {
+                    width: 4px;
+                    height: 60px;
+                }
+                /* end */
+                .case--study-webscreen-quote-icon svg {
+                    width: 30px;
+                    height: 30px;
+                }
+                /* Auto scrolling image sec */
+                .device-scroll-wrap {
+                    height: 500px;
+                }
+                .device-scroll-wrap.device-phone {
+                    height: 450px;
+                }
+                /* end */
+                .case--study-cta-text-col {
+                    padding-bottom: 65px;
+                }
+                .case-study-about-bottom-mainvv1 .cs-about-banner {
+                    border-radius: 55px;
+                }
+                .case-study-main-center-secvv1 .cs-about-meta-row {
+                    gap: 20px 10px;
+                    grid-template-columns: repeat(3, 1fr);
+                }
+                .cs-about-meta-row .cs-about-meta-item:nth-child(4) {
+                    padding-left: 0;
+                }
+                .cs-about-meta-row .cs-about-meta-item:nth-child(4)::before {
+                    display: none;
+                }
+            }
+            
+            @media (max-width: 1200px) {
+                .case-study-main-sec .case--study-banner-inner {
+                    height: 700px;
+                }
+                /* Auto scrolling image sec */
+                .device-scroll-wrap.device-phone {
+                    margin: 0 0 0 auto;
+                }
+                .device-phone .scroll-bg-image {
+                    border-radius: 24px;
+                    -webkit-border-radius: 24px;
+                    -moz-border-radius: 24px;
+                    -ms-border-radius: 24px;
+                    -o-border-radius: 24px;
+                }
+                /* end */
+                .cs-gurus-info .cs-gurus-name {
+                    font-size: 22px;
+                }
+                .cs-about-meta-item {
+                    padding: 0 12px;
+                }
+            }
+            
+            @media (max-width: 1199px) {
+                /* Brand Identity - MatInvest */
+                .grandient-heading span {
+                    padding: 5px 8px 8px;
+                }
+                .grandient-heading::before {
+                    height: 56px;
+                }
+                /* end */
+                .case--study-features-main .case--study-logo-com-main {
+                    height: auto;
+                }
+                .case--study-banner-secn.banner-sec {
+                    padding-bottom: 0;
+                }
+                /* Auto scrolling image sec */
+                .device-scroll-wrap {
+                    height: auto;
+                }
+                .device-scroll-wrap.device-phone {
+                    height: auto;
+                }
+                /* end */
+                .case--study-cps-inner .case-study-c-imgs {
+                    width: 50px;
+                    height: 50px;
+                }
+                .case--study-challenges-mate-main .case--study-cps-inner {
+                    padding: 25px;
+                    border-radius: 15px;
+                }
+                .case--study-challenges-mate-main .case--study-cps-imgvv1 img {
+                    border-radius: 15px;
+                }
+                .case--study-challenges-mate-main .case--study-cps-points li {
+                    padding-left: 14px;
+                }
+                .cs-about-meta-row .cs-about-meta-item img {
+                    width: 54px;
+                    height: 54px;
+                }
+                .cs-about-gurus .cs-gurus-avatar {
+                    width: 55px;
+                    height: 55px;
+                }
+                .cs-gurus-info .cs-gurus-name {
+                    font-size: 19px;
+                }
+                .cs-gurus-info .cs-gurus-location {
+                    font-size: 17px;
+                }
+                .cs-meta-info .cs-meta-value {
+                    font-size: 16px;
+                }
+                .case-study-about-bottom-mainvv1 .cs-about-banner {
+                    border-radius: 40px;
+                }
+                .case--study-about-mate-main .case-study-about-bottom-mainvv1 {
+                    padding: 60px 40px 0px;
+                }
+                .case-study-main-center-secvv1 {
+                    padding-top: 30px;
+                }
+                .cs-about-meta-item {
+                    padding: 0 15px;
+                }
+                .cs-about-meta-row .cs-about-meta-item img {
+                    width: 50px;
+                    height: 50px;
+                }
+                .cs-meta-info .cs-meta-label {
+                    font-size: 18px;
+                }
+                .cs-meta-info .cs-meta-value {
+                    font-size: 15px;
+                }
+                .cs-color-label,
+                .col-center-main .cs-color-label,
+                .col-right-top .cs-color-label {
+                    font-size: 16px;
+                }
+                .cs-color-value,
+                .col-center-main .cs-color-value,
+                .col-right-top .cs-color-value {
+                    font-size: 28px;
+                }
+                .cs-color-card {
+                    border-radius: 18px;
+                }
+            }
+            
+            @media (max-width: 991px) {
+                /* Brand Identity - MatInvest */
+                .mi-brand-identity-section .gradient-bg-right {
+                    top: 20%;
+                    transform: none;
+                    -webkit-transform: none;
+                    -moz-transform: none;
+                    -ms-transform: none;
+                    -o-transform: none;
+                }
+                /* end */
+                .case--study-webscreen-quote-icon svg {
+                    width: 25px;
+                    height: 25px;
+                }
+                .case--study-about-img-row {
+                    margin-bottom: 10px;
+                }
+                .case--study-about-img-hero,
+                .case--study-about-img-split {
+                    border-radius: 20px;
+                    -webkit-border-radius: 20px;
+                    -moz-border-radius: 20px;
+                    -ms-border-radius: 20px;
+                    -o-border-radius: 20px;
+                }
+                .banner-center p br {
+                    display: none;
+                }
+                /* Auto scrolling image sec */
+                .case--study-row-txtvv1 {
+                    margin-bottom: 40px;
+                }
+                /* end */
+                .sg-palette {
+                    margin-bottom: 25px;
+                }
+                .case--study-about-row .cs-subhead {
+                    font-size: 20px;
+                }
+                .case--study-about-quote-text,
+                .case--study-webscreen-quote-textvv1 {
+                    font-size: 30px;
+                }
+                .case--study-webscreen-testimonial-name {
+                    font-size: 18px;
+                }
+                .case--study-webscreen-testimonial-role {
+                    font-size: 12px;
+                }
+                .case--study-about-psi-text {
+                    font-size: 14px;
+                }
+                .case--study-about-psi-title {
+                    font-size: 18px;
+                }
+                .case--study-about-psi-num {
+                    width: 25px;
+                    height: 25px;
+                    font-size: 12px;
+                    margin-right: 8px;
+                }
+                .case--study-brand-desc {
+                    margin-left: 0px;
+                }
+                /* .case--study-brand-heading {
         font-size: 32px;
     } */
-    .case--study-row-txtvv1 {
-        margin-bottom: 40px;
-    }
-
-    .case--study-webscreen-avatar {
-        width: 40px;
-        height: 40px;
-    }
-
-    .case--study-webscreen-quote-wrap {
-        margin-bottom: 30px;
-        gap: 10px;
-    }
-
-    .case--study-about-psi-row {
-        margin-top: 50px;
-        margin-bottom: 50px;
-    }
-
-    .case--study-webscreen-quote-icon svg {
-        width: 35px;
-        height: 35px;
-    }
-
-    .sg-swatch-box {
-        max-height: 50px;
-        border-radius: 8px;
-    }
-
-    .case--study-cta-text-col {
-        padding-bottom: 35px;
-    }
-
-    .case--study-cta-divider {
-        margin: 20px 0;
-    }
-
-    .phn-modal-img {
-        max-width: 280px;
-    }
-
-    .case--study-challenges-mate-main {
-        padding: 50px 0;
-    }
-
-    .case--study-challenges-mate-main .case--study-cps-inner {
-        padding: 25px;
-        border-radius: 20px;
-    }
-
-    .case--study-challenges-mate-main .case--study-cps-imgvv1 img {
-        border-radius: 20px;
-    }
-
-    .case--study-challenges-mate-main .case--study-cps-problems {
-        margin-bottom: 35px;
-    }
-
-    .cs-about-meta-row .cs-about-meta-item img {
-        width: 45px;
-        height: 45px;
-    }
-
-    .cs-about-meta-item {
-        padding: 0;
-    }
-
-    .cs-about-meta-item::before {
-        display: none;
-    }
-}
-
-@media (max-width: 767px) {
-    .case--study-inner-pdvv1 {
-        padding-top: 35px;
-        padding-bottom: 35px;
-    }
-
-    /* Auto scrolling image sec */
-    .parent-mobile-frame {
-        margin-top: 24px;
-    }
-
-    .device-scroll-wrap.device-phone {
-        max-width: 380px;
-        height: 750px;
-        margin: 0 auto;
-    }
-
-    .device-phone .scroll-bg-image {
-        animation-duration: 100s;
-        border-radius: 30px;
-        -webkit-border-radius: 30px;
-        -moz-border-radius: 30px;
-        -ms-border-radius: 30px;
-        -o-border-radius: 30px;
-    }
-
-    .device-phone .device-screen-viewport {
-        padding: 8px 8px;
-    }
-
-    /* end */
-    .case--study-about-row .cs-subhead {
-        font-size: 18px;
-    }
-
-    .case--study-about-quote-text,
-    .case--study-webscreen-quote-textvv1 {
-        font-size: 24px;
-    }
-
-    .case--study-webscreen-quote-wrap {
-        gap: 8px;
-        margin-bottom: 20px;
-    }
-
-    .case--study-webscreen-testimonial-name {
-        font-size: 16px;
-    }
-
-    .row.case--study-about-psi-row {
-        margin-top: 40px;
-        margin-bottom: 40px;
-    }
-
-    .case--study-about-psi-item {
-        margin-bottom: 10px;
-    }
-
-    .case--study-about-quote-text,
-    .case--study-webscreen-quote-textvv1 {
-        font-size: 20px;
-    }
-
-    .case--study-webscreen-content {
-        margin: 0 auto;
-    }
-
-    .case--study-row-txtvv1 {
-        margin-bottom: 25px;
-    }
-
-    .case--study-webscreen-quote-icon svg {
-        width: 18px;
-        height: 18px;
-    }
-
-    .case--study-logo-anatomy {
-        margin-bottom: 40px;
-    }
-
-    .case--study-webscreen-img-row .mb-40 {
-        margin-bottom: 20px !important;
-    }
-
-    .case--study-webscreen-img-row .mt-40 {
-        margin-top: 20px !important;
-    }
-
-    .case--study-webscreen-img-row .mtb-40 {
-        margin-bottom: 20px !important;
-        margin-top: 20px !important;
-    }
-
-    .banner-sec.case-study-main-sec {
-        min-height: calc(100vh - 140px);
-    }
-
-    .case--study-page-matesinvests .banner-sec {
-        min-height: auto;
-        padding-bottom: 0;
-    }
-
-    .case--study-challenges-mate-main {
-        padding: 40px 0;
-    }
-
-    .case--study-about-mate-main .case-study-about-bottom-mainvv1 {
-        padding: 40px 30px 0px;
-    }
-
-    .case-study-about-bottom-mainvv1 .cs-about-banner {
-        border-radius: 20px;
-    }
-
-    .cs-about-gurus .cs-gurus-avatar {
-        width: 50px;
-        height: 50px;
-    }
-
-    .cs-gurus-info .cs-gurus-location {
-        font-size: 16px;
-    }
-
-    .cs-gurus-info .cs-gurus-name {
-        font-size: 18px;
-    }
-
-    .case--study-cps-imgvv1 {
-        margin-top: 30px;
-        display: flex;
-        /* align-items: flex-end; */
-        justify-content: center;
-    }
-
-    .case--study-challenges-mate-main .case--study-cps-p {
-        margin-bottom: 12px;
-        margin-top: 8px;
-    }
-
-    .case-study-main-center-secvv1 .cs-about-meta-row {
-        grid-template-columns: repeat(2, 1fr);
-        gap: 10px;
-    }
-
-    .cs-about-meta-item {
-        align-items: center;
-        padding: 15px;
-        border: 1px solid #E8E8E8;
-        border-radius: 14px;
-        background: #fff;
-    }
-
-    .cs-about-meta-row .cs-about-meta-item:nth-child(4) {
-        padding-left: 15px;
-    }
-
-    .cs-about-meta-item:first-child {
-        padding-left: 15px;
-    }
-
-    .cs-about-meta-item:last-child {
-        padding-right: 15px;
-    }
-
-    .cs-meta-info .cs-meta-label {
-        font-size: 16px;
-    }
-
-    .cs-meta-info .cs-meta-value {
-        font-size: 14px;
-    }
-
-    .case-study-main-center-secvv1 {
-        padding-top: 8px;
-    }
-}
-
-@media (max-width: 575px) {
-
-    /* Brand Identity - MatInvest */
-    .mi-brand-identity-section .gradient-bg-left {
-        left: -50px;
-    }
-
-    .mi-brand-identity-section .gradient-bg-right {
-        right: -50px;
-    }
-
-    .grandient-heading::before {
-        height: 40px;
-    }
-
-    .grandient-heading {
-        gap: 2px;
-    }
-
-    /* end */
-    ul.case--study-type-innern li .case--study-cat.case-bg-wt {
-        font-size: 12px;
-    }
-
-    /* Auto scrolling image sec */
-    .device-scroll-wrap.device-phone {
-        max-width: 300px;
-        height: 540px;
-    }
-
-    /* end */
-    /* .case--study-brand-heading {
+                .case--study-row-txtvv1 {
+                    margin-bottom: 40px;
+                }
+                .case--study-webscreen-avatar {
+                    width: 40px;
+                    height: 40px;
+                }
+                .case--study-webscreen-quote-wrap {
+                    margin-bottom: 30px;
+                    gap: 10px;
+                }
+                .case--study-about-psi-row {
+                    margin-top: 50px;
+                    margin-bottom: 50px;
+                }
+                .case--study-webscreen-quote-icon svg {
+                    width: 35px;
+                    height: 35px;
+                }
+                .sg-swatch-box {
+                    max-height: 50px;
+                    border-radius: 8px;
+                }
+                .case--study-cta-text-col {
+                    padding-bottom: 35px;
+                }
+                .case--study-cta-divider {
+                    margin: 20px 0;
+                }
+                .phn-modal-img {
+                    max-width: 280px;
+                }
+                .case--study-challenges-mate-main {
+                    padding: 50px 0;
+                }
+                .case--study-challenges-mate-main .case--study-cps-inner {
+                    padding: 25px;
+                    border-radius: 20px;
+                }
+                .case--study-challenges-mate-main .case--study-cps-imgvv1 img {
+                    border-radius: 20px;
+                }
+                .case--study-challenges-mate-main .case--study-cps-problems {
+                    margin-bottom: 35px;
+                }
+                .cs-about-meta-row .cs-about-meta-item img {
+                    width: 45px;
+                    height: 45px;
+                }
+                .cs-about-meta-item {
+                    padding: 0;
+                }
+                .cs-about-meta-item::before {
+                    display: none;
+                }
+                /* .col-left-col,
+    .col-center-col,
+    .col-right-col {
+        margin-bottom: 24px;
+    } */
+                .col-left-top {
+                    padding: 35% 5% !important;
+                }
+                .col-left-bottom {
+                    padding: 18% 5% !important;
+                }
+                .col-center-main {
+                    padding: 30% 8% !important;
+                    min-height: 320px;
+                }
+                .col-right-top {
+                    padding: 14% 5% !important;
+                }
+                .col-right-bottom-left,
+                .col-right-bottom-right {
+                    padding: 40% 5% !important;
+                }
+                .cs-color-label,
+                .col-center-main .cs-color-label,
+                .col-right-top .cs-color-label {
+                    font-size: 14px;
+                }
+                .cs-color-value,
+                .col-center-main .cs-color-value,
+                .col-right-top .cs-color-value {
+                    font-size: 24px;
+                }
+            }
+            
+            @media (max-width: 767px) {
+                .case--study-inner-pdvv1 {
+                    padding-top: 35px;
+                    padding-bottom: 35px;
+                }
+                /* Auto scrolling image sec */
+                .parent-mobile-frame {
+                    margin-top: 24px;
+                }
+                .device-scroll-wrap.device-phone {
+                    max-width: 380px;
+                    height: 750px;
+                    margin: 0 auto;
+                }
+                .device-phone .scroll-bg-image {
+                    animation-duration: 100s;
+                    border-radius: 30px;
+                    -webkit-border-radius: 30px;
+                    -moz-border-radius: 30px;
+                    -ms-border-radius: 30px;
+                    -o-border-radius: 30px;
+                }
+                .device-phone .device-screen-viewport {
+                    padding: 8px 8px;
+                }
+                /* end */
+                .case--study-about-row .cs-subhead {
+                    font-size: 18px;
+                }
+                .case--study-about-quote-text,
+                .case--study-webscreen-quote-textvv1 {
+                    font-size: 24px;
+                }
+                .case--study-webscreen-quote-wrap {
+                    gap: 8px;
+                    margin-bottom: 20px;
+                }
+                .case--study-webscreen-testimonial-name {
+                    font-size: 16px;
+                }
+                .row.case--study-about-psi-row {
+                    margin-top: 40px;
+                    margin-bottom: 40px;
+                }
+                .case--study-about-psi-item {
+                    margin-bottom: 10px;
+                }
+                .case--study-about-quote-text,
+                .case--study-webscreen-quote-textvv1 {
+                    font-size: 20px;
+                }
+                .case--study-webscreen-content {
+                    margin: 0 auto;
+                }
+                .case--study-row-txtvv1 {
+                    margin-bottom: 25px;
+                }
+                .case--study-webscreen-quote-icon svg {
+                    width: 18px;
+                    height: 18px;
+                }
+                .case--study-logo-anatomy {
+                    margin-bottom: 40px;
+                }
+                .case--study-webscreen-img-row .mb-40 {
+                    margin-bottom: 20px !important;
+                }
+                .case--study-webscreen-img-row .mt-40 {
+                    margin-top: 20px !important;
+                }
+                .case--study-webscreen-img-row .mtb-40 {
+                    margin-bottom: 20px !important;
+                    margin-top: 20px !important;
+                }
+                .banner-sec.case-study-main-sec {
+                    min-height: calc(100vh - 140px);
+                }
+                .case--study-page-matesinvests .banner-sec {
+                    min-height: auto;
+                    padding-bottom: 0;
+                }
+                .case--study-challenges-mate-main {
+                    padding: 40px 0;
+                }
+                .case--study-about-mate-main .case-study-about-bottom-mainvv1 {
+                    padding: 40px 30px 0px;
+                }
+                .case-study-about-bottom-mainvv1 .cs-about-banner {
+                    border-radius: 20px;
+                }
+                .cs-about-gurus .cs-gurus-avatar {
+                    width: 50px;
+                    height: 50px;
+                }
+                .cs-gurus-info .cs-gurus-location {
+                    font-size: 16px;
+                }
+                .cs-gurus-info .cs-gurus-name {
+                    font-size: 18px;
+                }
+                .case--study-cps-imgvv1 {
+                    margin-top: 30px;
+                    display: flex;
+                    /* align-items: flex-end; */
+                    justify-content: center;
+                }
+                .case--study-challenges-mate-main .case--study-cps-p {
+                    margin-bottom: 12px;
+                    margin-top: 8px;
+                }
+                .case-study-main-center-secvv1 .cs-about-meta-row {
+                    grid-template-columns: repeat(2, 1fr);
+                    gap: 10px;
+                }
+                .cs-about-meta-item {
+                    align-items: center;
+                    padding: 15px;
+                    border: 1px solid #E8E8E8;
+                    border-radius: 14px;
+                    background: #fff;
+                }
+                .cs-about-meta-row .cs-about-meta-item:nth-child(4) {
+                    padding-left: 15px;
+                }
+                .cs-about-meta-item:first-child {
+                    padding-left: 15px;
+                }
+                .cs-about-meta-item:last-child {
+                    padding-right: 15px;
+                }
+                .cs-meta-info .cs-meta-label {
+                    font-size: 16px;
+                }
+                .cs-meta-info .cs-meta-value {
+                    font-size: 14px;
+                }
+                .case-study-main-center-secvv1 {
+                    padding-top: 8px;
+                }
+                .col-left-top,
+                .col-left-bottom,
+                .col-center-main,
+                .col-right-top,
+                .col-right-bottom-left,
+                .col-right-bottom-right {
+                    padding: 22% 5% !important;
+                    min-height: 180px;
+                }
+                .cs-color-label,
+                .col-center-main .cs-color-label,
+                .col-right-top .cs-color-label {
+                    font-size: 16px;
+                }
+                .cs-color-value,
+                .col-center-main .cs-color-value,
+                .col-right-top .cs-color-value {
+                    font-size: 28px;
+                }
+            }
+            
+            @media (max-width: 575px) {
+                /* Brand Identity - MatInvest */
+                .mi-brand-identity-section .gradient-bg-left {
+                    left: -50px;
+                }
+                .mi-brand-identity-section .gradient-bg-right {
+                    right: -50px;
+                }
+                .grandient-heading::before {
+                    height: 40px;
+                }
+                .grandient-heading {
+                    gap: 2px;
+                }
+                /* end */
+                ul.case--study-type-innern li .case--study-cat.case-bg-wt {
+                    font-size: 12px;
+                }
+                /* Auto scrolling image sec */
+                .device-scroll-wrap.device-phone {
+                    max-width: 300px;
+                    height: 540px;
+                }
+                /* end */
+                /* .case--study-brand-heading {
         font-size: 28px;
     } */
-    .case--study-social-main .case--study-brand-heading br {
-        display: none;
-    }
-
-    .case--study-cta-divider {
-        margin: 24px 0 18px;
-    }
-
-    .sg-palette {
-        grid-template-columns: repeat(3, 1fr);
-    }
-
-    .phn-modal-img {
-        max-width: 220px;
-    }
-
-    .cs-about-meta-item {
-        gap: 10px;
-        padding: 12px;
-        border-radius: 10px;
-    }
-
-    .cs-about-meta-row .cs-about-meta-item:nth-child(4) {
-        padding-left: 12px;
-    }
-
-    .case--study-about-mate-main .case-study-about-bottom-mainvv1 {
-        padding: 30px 20px 0px;
-    }
-
-    .cs-meta-info .cs-meta-value {
-        font-size: 12px;
-    }
-
-    .case--study-main-bg-imgvv1.about-bg-img {
-        max-width: 220px;
-    }
-}
-
-@media (max-width: 480px) {
-    .case-study-main-center-secvv1 .cs-about-meta-row {
-        grid-template-columns: 1fr;
-    }
-
-    .case-study-main-sec .case--study-banner-inner {
-        height: 590px;
-    }
-
-    ul.case--study-type-innern li .case--study-cat {
-        padding: 4px 10px 6px;
-    }
-
-    .banner-center h1 {
-        font-size: 30px;
-        margin-bottom: 15px;
-    }
-
-    .case-study-main-sec .case--study-banner-inner .case--study-nsw-main {
-        position: absolute;
-        bottom: 20px;
-    }
-
-    ul.case--study-type-innern li .case--study-cat {
-        padding: 4px 10px 6px;
-    }
-
-    .case--study-webscreen-avatar {
-        width: 35px;
-        height: 35px;
-        margin-right: 8px;
-    }
-
-    .case--study-webscreen-quote-icon {
-        margin-top: -6px;
-    }
-}
-
-@media (max-width: 380px) {
-
-    .case--study-about-img-hero,
-    .case--study-about-img-split {
-        border-radius: 16px;
-        -webkit-border-radius: 16px;
-        -moz-border-radius: 16px;
-        -ms-border-radius: 16px;
-        -o-border-radius: 16px;
-    }
-
-    .cs-about-meta-item {
-        gap: 12px;
-        padding: 12px;
-    }
-
-    .cs-about-meta-row .cs-about-meta-item img {
-        width: 40px;
-        height: 40px;
-    }
-
-    .cs-meta-info .cs-meta-label {
-        font-size: 14px;
-    }
-
-    .cs-meta-info .cs-meta-value {
-        font-size: 12px;
-    }
-
-    .cs-about-meta-item:first-child {
-        padding-left: 12px;
-    }
-
-    .cs-about-meta-item:first-child {
-        padding-right: 12px;
-    }
-}
-
-@media (max-width: 350px) {}
+                .case--study-social-main .case--study-brand-heading br {
+                    display: none;
+                }
+                .case--study-cta-divider {
+                    margin: 24px 0 18px;
+                }
+                .sg-palette {
+                    grid-template-columns: repeat(3, 1fr);
+                }
+                .phn-modal-img {
+                    max-width: 220px;
+                }
+                .cs-about-meta-item {
+                    gap: 10px;
+                    padding: 12px;
+                    border-radius: 10px;
+                }
+                .cs-about-meta-row .cs-about-meta-item:nth-child(4) {
+                    padding-left: 12px;
+                }
+                .case--study-about-mate-main .case-study-about-bottom-mainvv1 {
+                    padding: 30px 20px 0px;
+                }
+                .cs-meta-info .cs-meta-value {
+                    font-size: 12px;
+                }
+                .case--study-main-bg-imgvv1.about-bg-img {
+                    max-width: 220px;
+                }
+                .col-left-top,
+                .col-left-bottom,
+                .col-center-main,
+                .col-right-top,
+                .col-right-bottom-left,
+                .col-right-bottom-right {
+                    padding: 18% 5% !important;
+                    min-height: 150px;
+                    border-radius: 16px;
+                }
+                .cs-color-label,
+                .col-center-main .cs-color-label,
+                .col-right-top .cs-color-label {
+                    font-size: 13px;
+                    margin-bottom: -1px;
+                }
+                .cs-color-value,
+                .col-center-main .cs-color-value,
+                .col-right-top .cs-color-value {
+                    font-size: 14px;
+                }
+            }
+            
+            @media (max-width: 480px) {
+                .case-study-main-center-secvv1 .cs-about-meta-row {
+                    grid-template-columns: 1fr;
+                }
+                .case-study-main-sec .case--study-banner-inner {
+                    height: 590px;
+                }
+                ul.case--study-type-innern li .case--study-cat {
+                    padding: 4px 10px 6px;
+                }
+                .banner-center h1 {
+                    font-size: 30px;
+                    margin-bottom: 15px;
+                }
+                .case-study-main-sec .case--study-banner-inner .case--study-nsw-main {
+                    position: absolute;
+                    bottom: 20px;
+                }
+                ul.case--study-type-innern li .case--study-cat {
+                    padding: 4px 10px 6px;
+                }
+                .case--study-webscreen-avatar {
+                    width: 35px;
+                    height: 35px;
+                    margin-right: 8px;
+                }
+                .case--study-webscreen-quote-icon {
+                    margin-top: -6px;
+                }
+                .cs-color-value,
+                .col-center-main .cs-color-value,
+                .col-right-top .cs-color-value {
+                    font-size: 18px;
+                }
+            }
+            
+            @media (max-width: 380px) {
+                .case--study-about-img-hero,
+                .case--study-about-img-split {
+                    border-radius: 16px;
+                    -webkit-border-radius: 16px;
+                    -moz-border-radius: 16px;
+                    -ms-border-radius: 16px;
+                    -o-border-radius: 16px;
+                }
+                .cs-about-meta-item {
+                    gap: 12px;
+                    padding: 12px;
+                }
+                .cs-about-meta-row .cs-about-meta-item img {
+                    width: 40px;
+                    height: 40px;
+                }
+                .cs-meta-info .cs-meta-label {
+                    font-size: 14px;
+                }
+                .cs-meta-info .cs-meta-value {
+                    font-size: 12px;
+                }
+                .cs-about-meta-item:first-child {
+                    padding-left: 12px;
+                }
+                .cs-about-meta-item:first-child {
+                    padding-right: 12px;
+                }
+            }
+            
+            @media (max-width: 350px) {}
