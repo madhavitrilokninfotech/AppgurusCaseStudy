@@ -1003,6 +1003,67 @@ ul.case--study-type-innern li .case--study-cat.case-bg-wt {
 }
 
 /* ===================================
+    BioTime CaseStudy CSS
+=================================== */
+.case--study-page-biotime.case--study-page-v1 {
+    background-color: #ffff;
+}
+
+.case--study-page-biotime .case--study-mobilescreen-wrap:after {
+    background: #ffffff;
+    top: 70%;
+    background: -webkit-linear-gradient(180deg, rgba(255, 255, 255, 0) 0, rgba(255, 255, 255, 1) 70%);
+    background: -moz-linear-gradient(180deg, rgba(255, 255, 255, 0) 0, rgba(255, 255, 255, 1) 70%);
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0, rgba(255, 255, 255, 1) 70%);
+}
+
+.case--study-page-biotime .case--study-color-shades-boxm .case--study-color-shades-box:nth-child(1) {
+    border-radius: 14px 0 0 14px;
+}
+
+.case--study-page-biotime .case--study-color-shades-boxm .case--study-color-shades-box:nth-child(4) {
+    border-radius: 0 14px 14px 0;
+}
+
+.case--study-page-biotime .custom-table-main th,
+.case--study-page-biotime .custom-table-main td {
+    border-color: #ffffff;
+}
+
+.biotime-banner ul.case--study-type-innern li .case--study-cat {
+    background-color: #fff;
+    font-weight: 600;
+    color: #00AEEF;
+}
+
+.biotime-banner .case--study-banner-inner .section-title h2 {
+    text-transform: capitalize;
+}
+
+.biotime-banner .biotimelogo {
+    height: 90px;
+}
+
+.biotime-banner .biotime-inner-wrap {
+    padding: 120px 0 60px;
+}
+
+.biotime-banner .shape-bg-img {
+    position: absolute;
+    z-index: -1;
+    left: 30px;
+    top: 0;
+    bottom: 0;
+    width: 850px;
+    border-radius: 40px 0 0 40px;
+}
+
+.biotime-banner .case--study-banner-inner {
+    padding: 30px 0 100px;
+    height: 930px;
+}
+
+/* ===================================
    responsive css start
 =================================== */
 
@@ -1033,6 +1094,10 @@ ul.case--study-type-innern li .case--study-cat.case-bg-wt {
 }
 
 @media (max-width: 1599px) {
+    .biotime-banner .shape-bg-img {
+        left: 20px;
+    }
+
     .case--study-challenges-mate-main .case--study-cps-bullet {
         top: 10px;
     }
@@ -1173,6 +1238,13 @@ ul.case--study-type-innern li .case--study-cat.case-bg-wt {
 }
 
 @media (max-width: 1399px) {
+    .biotime-banner .shape-bg-img {
+        border-radius: 20px 0 0 20px;
+        -webkit-border-radius: 20px 0 0 20px;
+        -moz-border-radius: 20px 0 0 20px;
+        -ms-border-radius: 20px 0 0 20px;
+        -o-border-radius: 20px 0 0 20px;
+    }
 
     /* Brand Identity - MatInvest */
     .grandient-heading {
